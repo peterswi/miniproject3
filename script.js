@@ -27,51 +27,37 @@ let returnRaces = function(data) {
     return data.race;
 }
 
-const races = ['W', 'B', 'A', 'N', 'O', 'None'];
-let countNum = function(data) {
-    console.log(data)
+let countNum = function(data, races){
+//    console.log(data)
     let races_object = {}
+    let races_arr = Object.entries(data)
+    console.log(data)
     let counts = []
-    W_count = 0
-    B_count = 0
-    A_count = 0
-    N_count = 0
-    O_count = 0
-    None_count = 0
-    data.forEach( d => {
-        if (d.races === 'W') W_count++;
-        if (d.races === 'B') B_count++;
-        if (d.races === 'A') A_count++;
-        if (d.races === 'N') N_count++;
-        if (d.races === 'O') O_count++;
-        else None_count++;
-    });
-    counts.push(W_count, B_count, A_count, N_count, O_count, None_count);
-    for (i=0; i < races.length; i++) {
-        console.log(races[i])
-        console.log(counts[i])
-        //races_object.races[i] = counts[i]
+    let white = 0;
+    let asian = 0;
+    let black = 0;
+    let hispanic = 0;
+    let native_american = 0;
+    let other = 0;
+  //  for (let person in data) {
+            //console.log(person)
+  //          console.log('here')
+  //          console.log(person.race)
+         /*   if (races_arr[i][2][2] === 'White') white++;
+            if (d.race === 'Asian') asian++;
+            if (d.race === 'Black') black++;
+            if (d.race === 'Hispanic') hispanic++;
+            if (d.race === 'Native American') native_american++;
+            else other++; */
+        }
+    //console.log('number of white people killed', white);
     };
-    return races_object
-   /* let races_arr = Object.entries(races)
-    console.log(races_arr)
-    races.forEach((r) => {
-            counter = 0;
-            data.forEach((data) => {
-                    if (data.race === r) {
-                    //    console.log(data.race)
-                        counter++;
-                    }
-                });
-            race_freq.push('Race:', r, 'Num_Victims', counter);
-        })
-  //  console.log(race_freq)  */
-};
 
 let makeBars = function makeStaticBar(data) {
     const unique_races = [... new Set(data.map(d => returnRaces(d)))]
+    console.log(unique_races)
     xScaleStatic.domain(unique_races)
-    yScaleStatic.domain(data.map(d => countNum(d)))
+    yScaleStatic.domain(data.map(d => countNum(d,unique_races)))
  //   const staticbars = barSVG.append('rect')
   //      .data(data)
    //     .enter()
@@ -84,3 +70,4 @@ let info = d3.csv('data-police-shootings-master/fatal-police-shootings-data.csv'
     makeBars(data);
 });
 
+console.log(Object.prototype)
