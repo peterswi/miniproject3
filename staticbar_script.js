@@ -93,6 +93,17 @@ let makeBars = function makeStaticBar(data) {
           .attr('width', xScaleStatic.bandwidth())
           .attr('height', d => height - yScaleStatic(d.value))
           .attr('fill', 'blue')
+
+        let labels = barSVG.selectAll('text')
+            .data(racesDataArray)
+            .enter()
+            .attr('text-anchor', 'middle')
+
+        labels.append('text')
+            .attr('class', 'x-axis-label')
+            .attr('x', width)
+            .attr('y', height)
+            .text(d => `${d.data.label}`)
 };
 
 let info = d3.csv('data-police-shootings-master/fatal-police-shootings-data.csv', d3.autoType).then( data => {
