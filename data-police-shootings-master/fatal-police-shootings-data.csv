@@ -64,7 +64,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 352,Joshua Omar Garcia,1/26/2015,shot,unarmed,Unarmed,24,M,Hispanic,0.185,Tahoka,TX,FALSE,other,Car,FALSE,-101.666,33.166,TRUE
 353,David Garcia,1/26/2015,shot,knife,Other Weapon,34,M,Hispanic,0.185,Wasco,CA,TRUE,other,Not fleeing,FALSE,-119.335,35.589,TRUE
 111,Tiffany Terry,1/27/2015,shot,knife,Other Weapon,39,F,White,0.601,Omaha,NE,TRUE,attack,Not fleeing,FALSE,-95.99,41.243,TRUE
-348,Nicolas Leland Tewa,1/27/2015,shot,,Other Weapon,26,M,Native America,0.006,Phoenix,AZ,FALSE,other,Not fleeing,FALSE,-112.113,33.495,TRUE
+348,Nicolas Leland Tewa,1/27/2015,shot,,Other Weapon,26,M,Native American,0.006,Phoenix,AZ,FALSE,other,Not fleeing,FALSE,-112.113,33.495,TRUE
 349,Chris Ingram,1/27/2015,shot,gun,Gun,29,M,White,0.601,Morenci,AZ,FALSE,attack,Not fleeing,FALSE,-109.326,33.054,TRUE
 350,Jermonte Fletcher,1/27/2015,shot,gun,Gun,33,M,Black,0.134,Columbus,OH,FALSE,attack,Not fleeing,FALSE,-82.997,39.879,TRUE
 345,Alan Lance Alverson,1/28/2015,shot,gun,Gun,45,M,White,0.601,Sunset,TX,FALSE,attack,Not fleeing,FALSE,-97.828,33.47,TRUE
@@ -212,7 +212,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 306,Robert Burdge,3/19/2015,shot,gun,Gun,36,M,White,0.601,Bakersfield,CA,FALSE,attack,Not fleeing,FALSE,-119.336,35.355,TRUE
 308,Richard White,3/20/2015,shot,machete,Other Weapon,63,M,Black,0.134,New Orleans,LA,TRUE,attack,Not fleeing,FALSE,-90.265,29.993,TRUE
 310,Tyrel Vick,3/20/2015,shot,gun,Gun,34,M,White,0.601,Coal County,OK,FALSE,attack,Not fleeing,FALSE,-96.323,34.506,TRUE
-531,Justin Fowler,3/20/2015,shot,gun,Gun,24,M,Native America,0.006,Red Valley,AZ,FALSE,attack,Car,FALSE,-109.138,36.466,TRUE
+531,Justin Fowler,3/20/2015,shot,gun,Gun,24,M,Native American,0.006,Red Valley,AZ,FALSE,attack,Car,FALSE,-109.138,36.466,TRUE
 235,Enoch Gaver,3/21/2015,shot,gun,Gun,21,M,White,0.601,Cottonwood,AZ,FALSE,attack,Not fleeing,FALSE,-112.001,34.713,TRUE
 309,James Ellis,3/21/2015,shot,gun,Gun,44,M,White,0.601,Clarendon,NY,FALSE,attack,Car,FALSE,-78.047,43.19,TRUE
 311,Gary Page,3/21/2015,shot,gun,Gun,60,M,White,0.601,Harmony,IN,TRUE,attack,Not fleeing,FALSE,-87.073,39.534,TRUE
@@ -294,7 +294,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 378,Michael Foster,4/19/2015,shot,gun,Gun,40,M,White,0.601,Wilmore,KY,TRUE,attack,Not fleeing,FALSE,-84.66,37.868,TRUE
 383,Dana Hlavinka,4/19/2015,shot,knife,Other Weapon,44,M,White,0.601,Sidney,NE,FALSE,attack,Not fleeing,FALSE,-102.983,41.122,TRUE
 399,Santos Cortez Hernandez,4/20/2015,shot,gun,Gun,25,M,Hispanic,0.185,Mission,TX,FALSE,other,Not fleeing,FALSE,-98.35,26.282,TRUE
-393,Daniel Covarrubias,4/21/2015,shot,unarmed,Unarmed,37,M,Native America,0.006,Lakewood,WA,TRUE,other,Foot,FALSE,-122.485,47.16,TRUE
+393,Daniel Covarrubias,4/21/2015,shot,unarmed,Unarmed,37,M,Native American,0.006,Lakewood,WA,TRUE,other,Foot,FALSE,-122.485,47.16,TRUE
 398,Kimber Key,4/21/2015,shot,knife,Other Weapon,59,M,White,0.601,Irmo,SC,TRUE,other,Not fleeing,FALSE,-81.2,34.073,TRUE
 495,Luis Martinez,4/21/2015,shot,knife,Other Weapon,35,M,Hispanic,0.185,Los Angeles,CA,TRUE,other,Not fleeing,FALSE,-118.205,34.072,TRUE
 537,Daniel Wolfe,4/21/2015,shot,,Other Weapon,35,M,Black,0.134,Trenton,NJ,FALSE,attack,Not fleeing,FALSE,-74.252,40.713,TRUE
@@ -437,7 +437,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 551,Zane Terryn,6/14/2015,shot,gun,Gun,15,M,White,0.601,Cocoa,FL,TRUE,attack,Not fleeing,FALSE,-80.792,28.36,TRUE
 550,Kris Jackson,6/15/2015,shot,unarmed,Unarmed,22,M,Black,0.134,South Lake Tahoe,CA,FALSE,other,Foot,FALSE,-119.951,38.951,TRUE
 559,Christopher DeLeon,6/16/2015,shot,gun,Gun,28,M,Hispanic,0.185,Visalia,CA,FALSE,attack,Not fleeing,FALSE,-119.313,36.305,TRUE
-563,Joe Charboneau,6/16/2015,shot,gun,Gun,31,M,Native America,0.006,Wood Lake,ND,FALSE,attack,Not fleeing,FALSE,-98.863,47.937,TRUE
+563,Joe Charboneau,6/16/2015,shot,gun,Gun,31,M,Native American,0.006,Wood Lake,ND,FALSE,attack,Not fleeing,FALSE,-98.863,47.937,TRUE
 557,Wendy Chappell,6/17/2015,shot,gun,Gun,40,F,White,0.601,Clanton,AL,FALSE,attack,Car,FALSE,-86.625,32.886,TRUE
 561,Kenneth Lanphier,6/17/2015,shot,gun,Gun,48,M,White,0.601,Hobbs,NM,TRUE,attack,Not fleeing,FALSE,-103.135,32.732,TRUE
 564,Oleg Tcherniak,6/18/2015,shot,knife,Other Weapon,58,M,White,0.601,Coney Island,NY,FALSE,attack,Foot,FALSE,-73.968,40.576,TRUE
@@ -507,7 +507,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 630,Freddie Blue,7/10/2015,shot,gun,Gun,20,M,Black,0.134,Covington,GA,FALSE,attack,Not fleeing,FALSE,-83.97,33.576,TRUE
 1152,Eugene McSwain,7/10/2015,shot,gun,Gun,25,M,Black,0.134,Chicago,IL,FALSE,attack,Not fleeing,FALSE,-87.608,41.702,TRUE
 637,Billy Maine,7/11/2015,shot,gun,Gun,31,M,White,0.601,Olivehurst,CA,FALSE,attack,Not fleeing,FALSE,-121.558,39.092,TRUE
-628,Paul Castaway,7/12/2015,shot,knife,Other Weapon,35,M,Native America,0.006,Denver,CO,TRUE,other,Foot,FALSE,-105.047,39.701,TRUE
+628,Paul Castaway,7/12/2015,shot,knife,Other Weapon,35,M,Native American,0.006,Denver,CO,TRUE,other,Foot,FALSE,-105.047,39.701,TRUE
 632,David Lepine,7/12/2015,shot,gun,Gun,60,M,White,0.601,Austin,TX,FALSE,attack,Foot,FALSE,-97.91,30.247,TRUE
 633,Matthew Watson,7/12/2015,shot,gun,Gun,24,M,White,0.601,River Forest,IL,FALSE,attack,Not fleeing,FALSE,-87.815,41.881,TRUE
 636,Christopher Benton,7/12/2015,shot,gun,Gun,27,M,White,0.601,Casper,WY,FALSE,attack,Not fleeing,FALSE,-106.354,42.834,TRUE
@@ -523,7 +523,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 647,Edward Foster III,7/16/2015,shot,gun,Gun,35,M,Black,0.134,Homestead,FL,FALSE,attack,Not fleeing,FALSE,-80.493,25.462,TRUE
 648,Patrick Stephen Pippin,7/16/2015,shot,gun,Gun,30,M,White,0.601,Kansas City,KS,FALSE,attack,Other,FALSE,-94.644,39.048,TRUE
 649,Mohammad Youssef Abdulazeez,7/16/2015,shot,gun,Gun,24,M,Other,0.006,Chattanooga,TN,TRUE,attack,Not fleeing,FALSE,-85.245,35.096,TRUE
-656,Saige Hack,7/16/2015,shot,gun,Gun,23,M,Native America,0.006,Cheyenne,WY,FALSE,attack,Not fleeing,FALSE,-104.826,41.117,TRUE
+656,Saige Hack,7/16/2015,shot,gun,Gun,23,M,Native American,0.006,Cheyenne,WY,FALSE,attack,Not fleeing,FALSE,-104.826,41.117,TRUE
 664,Pierre Gabriel Koellner,7/16/2015,shot,gun,Gun,29,M,White,0.601,Opp,AL,FALSE,attack,Foot,FALSE,-86.375,31.288,TRUE
 642,Anthonie Smith,7/16/2015,shot and Tasered,metal hand tool,Other Weapon,25,M,Black,0.134,Moreno Valley,CA,TRUE,other,Not fleeing,FALSE,-117.228,33.939,TRUE
 644,Samuel Smith,7/17/2015,shot,knife,Other Weapon,27,M,White,0.601,Seattle,WA,FALSE,other,Foot,FALSE,-122.304,47.676,TRUE
@@ -680,10 +680,10 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 810,Mohamed Ibrahim,9/6/2015,shot,gun,Gun,28,M,Black,0.134,Shreveport,LA,TRUE,attack,Car,FALSE,-93.727,32.485,TRUE
 811,William Verrett,9/6/2015,shot,gun,Gun,45,M,White,0.601,Hobbs,NM,FALSE,attack,Not fleeing,FALSE,-103.122,32.706,TRUE
 813,Casimero Carlos Casillas,9/7/2015,shot,metal pipe,Other Weapon,45,M,Hispanic,0.185,Fresno,CA,FALSE,other,Foot,TRUE,-119.701,36.789,TRUE
-836,Tristan Vent,9/8/2015,shot,gun,Gun,19,M,Native America,0.006,Fairbanks,AK,FALSE,attack,Not fleeing,FALSE,-147.779,64.827,TRUE
+836,Tristan Vent,9/8/2015,shot,gun,Gun,19,M,Native American,0.006,Fairbanks,AK,FALSE,attack,Not fleeing,FALSE,-147.779,64.827,TRUE
 812,Dustin Kuik,9/9/2015,shot,gun,Gun,25,M,White,0.601,Ashwaubenon,WI,FALSE,attack,Not fleeing,FALSE,-88.054,44.498,TRUE
 815,Tyrone Holman,9/9/2015,shot,guns and explosives,Other Weapon,37,M,Black,0.134,Kansas City,MO,TRUE,other,Not fleeing,FALSE,-94.542,39.045,TRUE
-816,Vincent J. Perdue,9/9/2015,shot,gun,Gun,33,M,Native America,0.006,Fairbanks,AK,FALSE,attack,Car,FALSE,-147.543,64.806,TRUE
+816,Vincent J. Perdue,9/9/2015,shot,gun,Gun,33,M,Native American,0.006,Fairbanks,AK,FALSE,attack,Car,FALSE,-147.543,64.806,TRUE
 879,William Chau,9/9/2015,shot,knife,Other Weapon,59,M,Asian,0.061,El Monte,CA,FALSE,attack,Not fleeing,FALSE,-118.029,34.079,TRUE
 817,Tian Ma,9/10/2015,shot,knife,Other Weapon,31,M,Asian,0.061,Potsdam,NY,FALSE,attack,Not fleeing,FALSE,-74.992,44.668,TRUE
 818,Bruce Santino,9/10/2015,shot,knife,Other Weapon,35,M,,0.006,Fontana,CA,TRUE,other,Not fleeing,FALSE,-117.44,34.07,TRUE
@@ -741,7 +741,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 875,Victor Oswaldo Coronado-Martinez,9/27/2015,shot,gun,Gun,40,M,Hispanic,0.185,Ponder,TX,FALSE,attack,Not fleeing,FALSE,-97.278,33.167,TRUE
 873,Alberto Hernandez,9/28/2015,shot,toy weapon,Toy,59,M,Hispanic,0.185,San Ysidro,CA,FALSE,attack,Not fleeing,TRUE,-117.066,32.562,TRUE
 872,Junior Prosper,9/28/2015,shot and Tasered,unarmed,Unarmed,31,M,Black,0.134,Miami,FL,FALSE,attack,Foot,FALSE,-92.419,45.347,TRUE
-877,Patrick Stephen Lundstrom,9/29/2015,shot,blunt object,Other Weapon,46,M,Native America,0.006,Rapid City,SD,FALSE,attack,Not fleeing,FALSE,-103.214,44.072,TRUE
+877,Patrick Stephen Lundstrom,9/29/2015,shot,blunt object,Other Weapon,46,M,Native American,0.006,Rapid City,SD,FALSE,attack,Not fleeing,FALSE,-103.214,44.072,TRUE
 880,Robert  Christen,9/29/2015,shot,unarmed,Unarmed,37,M,White,0.601,Mora,MN,FALSE,attack,Not fleeing,FALSE,-93.296,45.872,TRUE
 876,Brandon Lamar Johnson,9/30/2015,shot,gun,Gun,28,M,Black,0.134,Beckley,WV,FALSE,attack,Car,FALSE,-81.214,37.826,TRUE
 888,David M. Diaz,10/2/2015,shot,gun,Gun,28,M,Hispanic,0.185,Sierra Vista,AZ,FALSE,attack,Car,FALSE,-110.233,31.467,TRUE
@@ -1017,7 +1017,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 1163,Robert Tenbrink,1/11/2016,shot,toy weapon,Toy,45,M,White,0.601,Cincinnati,OH,TRUE,attack,Foot,FALSE,-84.585,39.118,TRUE
 1164,Ramone Lonergan,1/11/2016,shot,gun,Gun,32,M,White,0.601,Denver,CO,FALSE,other,Not fleeing,FALSE,-105.016,39.755,TRUE
 1165,Ciara Meyer,1/11/2016,shot,unarmed,Unarmed,12,F,White,0.601,Penn Township,PA,FALSE,other,Not fleeing,FALSE,-77.034,40.398,TRUE
-1166,Herman Bean,1/12/2016,shot,knife,Other Weapon,49,M,Native America,0.006,Spenard,AK,TRUE,other,Not fleeing,FALSE,-149.898,61.192,TRUE
+1166,Herman Bean,1/12/2016,shot,knife,Other Weapon,49,M,Native American,0.006,Spenard,AK,TRUE,other,Not fleeing,FALSE,-149.898,61.192,TRUE
 1167,Keith Richardson,1/12/2016,shot,gun,Gun,58,M,White,0.601,Norfolk,VA,TRUE,attack,Not fleeing,FALSE,-76.188,36.856,TRUE
 1183,Brandon Bearden,1/13/2016,shot,gun,Gun,29,M,White,0.601,Sevierville,TN,FALSE,other,Foot,TRUE,-83.558,35.837,TRUE
 1197,Timothy Meehan,1/13/2016,shot,gun,Gun,60,M,White,0.601,Cle Elum,WA,TRUE,attack,Not fleeing,FALSE,-120.954,47.197,TRUE
@@ -1059,7 +1059,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 1209,Janet Wilson,1/27/2016,shot,vehicle,Other Weapon,31,F,Black,0.134,Dearborn,MI,TRUE,other,Car,FALSE,-83.208,42.322,TRUE
 1210,Nathan Lee Bailey,1/27/2016,shot,gun,Gun,30,M,White,0.601,Mansfield,TX,FALSE,attack,Car,FALSE,-97.096,32.572,TRUE
 1212,Israel Vladimir Rodriguez,1/27/2016,shot,gun,Gun,26,M,Hispanic,0.185,Cobb County,GA,FALSE,attack,Car,FALSE,-84.484,33.923,TRUE
-1213,Jacqueline D. Salyers,1/28/2016,shot,vehicle,Other Weapon,32,F,Native America,0.006,Tacoma,WA,FALSE,other,Not fleeing,FALSE,-122.454,47.234,TRUE
+1213,Jacqueline D. Salyers,1/28/2016,shot,vehicle,Other Weapon,32,F,Native American,0.006,Tacoma,WA,FALSE,other,Not fleeing,FALSE,-122.454,47.234,TRUE
 1214,William A. Adams,1/28/2016,shot,gun,Gun,33,M,White,0.601,Omaha,NE,TRUE,attack,Foot,FALSE,-96.017,41.227,TRUE
 1215,Christopher Kalonji,1/28/2016,shot,gun,Gun,19,M,Black,0.134,Clackamas County,OR,TRUE,other,Not fleeing,FALSE,-122.625,45.409,TRUE
 1216,Randolph McClain,1/29/2016,shot,gun,Gun,33,M,Black,0.134,Lynn,MA,FALSE,attack,Other,FALSE,-70.949,42.465,TRUE
@@ -1079,7 +1079,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 1231,Justin Prescott,2/2/2016,shot and Tasered,knife,Other Weapon,30,M,White,0.601,Rancho Cordova,CA,TRUE,other,Not fleeing,FALSE,-121.291,38.596,TRUE
 1233,John Henry Neuman,2/3/2016,shot,gun,Gun,53,M,White,0.601,Schulter,OK,FALSE,attack,Not fleeing,FALSE,-95.953,35.532,TRUE
 1234,Cristiaan Oliver Dubrino,2/3/2016,shot,gun,Gun,31,M,Hispanic,0.185,Ocala,FL,TRUE,attack,Not fleeing,FALSE,-82.053,29.168,TRUE
-1235,Raymond Gassman,2/3/2016,shot,gun,Gun,22,M,Native America,0.006,Rosebud,SD,FALSE,attack,Not fleeing,TRUE,-100.626,43.188,TRUE
+1235,Raymond Gassman,2/3/2016,shot,gun,Gun,22,M,Native American,0.006,Rosebud,SD,FALSE,attack,Not fleeing,TRUE,-100.626,43.188,TRUE
 1236,Kayden Clarke,2/4/2016,shot,knife,Other Weapon,24,M,White,0.601,Mesa,AZ,TRUE,other,Not fleeing,TRUE,-111.659,33.437,TRUE
 1237,Antronie Scott,2/4/2016,shot,unarmed,Unarmed,36,M,Black,0.134,San Antonio,TX,FALSE,other,Not fleeing,FALSE,-98.493,29.529,TRUE
 1238,Scott Harless,2/4/2016,shot,gun,Gun,47,M,White,0.601,Kansas City,MO,FALSE,attack,Foot,FALSE,-94.511,38.918,TRUE
@@ -1100,7 +1100,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 1256,Scottie Yanagawa,2/9/2016,shot,gun,Gun,29,M,Other,0.006,Hilo,HI,FALSE,attack,Not fleeing,FALSE,-155.066,19.696,TRUE
 1253,Timothy Vessels,2/10/2016,shot,gun,Gun,41,M,White,0.601,Louisville,KY,FALSE,attack,Not fleeing,FALSE,-85.859,38.193,TRUE
 1254,David Brian Evans,2/10/2016,shot,gun,Gun,67,M,White,0.601,Abingdon,MD,FALSE,attack,Not fleeing,FALSE,-76.309,39.469,TRUE
-1255,Vincent Nageak,2/10/2016,shot,gun,Gun,36,M,Native America,0.006,Barrow,AK,FALSE,attack,Not fleeing,FALSE,-156.738,71.301,TRUE
+1255,Vincent Nageak,2/10/2016,shot,gun,Gun,36,M,Native American,0.006,Barrow,AK,FALSE,attack,Not fleeing,FALSE,-156.738,71.301,TRUE
 1257,John Birkeland,2/10/2016,shot,knife,Other Weapon,52,M,White,0.601,Roseville,MN,TRUE,attack,Not fleeing,TRUE,-93.156,45.006,TRUE
 1260,Anthony Bertoni,2/10/2016,shot,gun,Gun,56,M,Other,0.006,Henderson County,TX,TRUE,attack,Not fleeing,FALSE,-96.182,32.282,TRUE
 1258,Alijah Jackson,2/11/2016,shot,knife,Other Weapon,35,M,White,0.601,Maiden,NC,TRUE,other,Not fleeing,FALSE,-81.193,35.561,TRUE
@@ -1133,10 +1133,10 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 1296,Marcos Perea,2/20/2016,shot,gun,Gun,41,M,Black,0.134,Lakewood,WA,FALSE,attack,Car,FALSE,-122.559,47.12,TRUE
 1298,Charles Lee Lambert,2/20/2016,shot,gun,Gun,45,M,White,0.601,Iuka,MS,TRUE,attack,Not fleeing,FALSE,-88.19,34.812,TRUE
 1289,Che Taylor,2/21/2016,shot,undetermined,Other Weapon,46,M,Black,0.134,Seattle,WA,FALSE,other,Not fleeing,FALSE,-122.306,47.691,TRUE
-1290,Sherrisa Homer,2/21/2016,shot,gun,Gun,36,F,Native America,0.006,Phoenix,AZ,TRUE,attack,Foot,FALSE,-112.108,33.495,TRUE
+1290,Sherrisa Homer,2/21/2016,shot,gun,Gun,36,F,Native American,0.006,Phoenix,AZ,TRUE,attack,Foot,FALSE,-112.108,33.495,TRUE
 1292,Kisha Michael,2/21/2016,shot,gun,Gun,31,F,Black,0.134,Inglewood,CA,FALSE,other,Not fleeing,FALSE,-118.362,33.962,TRUE
 1293,Marquintan Sandlin,2/21/2016,shot,undetermined,Other Weapon,32,M,Black,0.134,Inglewood,CA,FALSE,other,Not fleeing,FALSE,-118.362,33.962,TRUE
-1305,Patricia Kruger,2/21/2016,shot,gun,Gun,38,F,Native America,0.006,Houston,AK,FALSE,attack,Not fleeing,FALSE,-149.778,61.585,TRUE
+1305,Patricia Kruger,2/21/2016,shot,gun,Gun,38,F,Native American,0.006,Houston,AK,FALSE,attack,Not fleeing,FALSE,-149.778,61.585,TRUE
 1301,Gerardino Cayetano Gonzalez,2/22/2016,shot,gun,Gun,33,M,Hispanic,0.185,Denver,CO,FALSE,attack,Other,FALSE,-105.035,39.766,TRUE
 1302,Jamie Clark Long,2/22/2016,shot,knife,Other Weapon,45,M,White,0.601,Bakersfield,CA,FALSE,attack,Not fleeing,FALSE,-119.008,35.372,TRUE
 1303,David Michael Green,2/22/2016,shot,,Other Weapon,38,M,White,0.601,Mission,TX,TRUE,other,Car,FALSE,-98.324,26.238,TRUE
@@ -1238,7 +1238,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 1414,Donald Andrew White,3/26/2016,shot,gun,Gun,55,M,White,0.601,Myrtle Beach,SC,FALSE,attack,Not fleeing,TRUE,-78.882,33.711,TRUE
 1416,Patrick Matthew McManamon,3/26/2016,shot,gun,Gun,46,M,White,0.601,Tampa,FL,TRUE,attack,Not fleeing,FALSE,-82.426,28.054,TRUE
 1410,Jeffrey Lanahan,3/27/2016,shot,knife,Other Weapon,34,M,White,0.601,Lee's Summit,MO,TRUE,other,Not fleeing,FALSE,-94.385,38.989,TRUE
-1411,Loreal Tsingine,3/27/2016,shot,scissors,Other Weapon,27,F,Native America,0.006,Winslow,AZ,TRUE,other,Not fleeing,TRUE,-110.697,35.024,TRUE
+1411,Loreal Tsingine,3/27/2016,shot,scissors,Other Weapon,27,F,Native American,0.006,Winslow,AZ,TRUE,other,Not fleeing,TRUE,-110.697,35.024,TRUE
 1417,Robert D. Guerin,3/27/2016,shot,gun,Gun,33,M,White,0.601,Roswell,NM,TRUE,attack,Not fleeing,TRUE,-104.554,33.385,TRUE
 1418,Deriante Deon Miller,3/27/2016,shot,gun,Gun,18,M,Black,0.134,Kinston,NC,FALSE,other,Not fleeing,FALSE,-77.634,35.331,TRUE
 1419,Earl Ashby,3/27/2016,shot,gun,Gun,33,M,White,0.601,Splendora,TX,TRUE,attack,Not fleeing,FALSE,-95.161,30.233,TRUE
@@ -1354,7 +1354,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 1535,Steve Godfrey,5/11/2016,shot,gun,Gun,,M,White,0.601,Byng,OK,TRUE,attack,Car,FALSE,-96.666,34.861,TRUE
 1539,Robert Mark Diaz,5/13/2016,shot,gun,Gun,28,M,Hispanic,0.185,Boyle Heights,CA,FALSE,attack,Not fleeing,TRUE,-118.202,34.026,TRUE
 1536,Cody Marsh,5/14/2016,shot,knife,Other Weapon,19,M,White,0.601,Jacksonsville,FL,TRUE,other,Not fleeing,FALSE,-81.653,30.331,TRUE
-1537,Francis Clark,5/14/2016,shot,gun,Gun,43,M,Native America,0.006,Phoenix,AZ,FALSE,attack,Not fleeing,TRUE,-112.139,33.466,TRUE
+1537,Francis Clark,5/14/2016,shot,gun,Gun,43,M,Native American,0.006,Phoenix,AZ,FALSE,attack,Not fleeing,TRUE,-112.139,33.466,TRUE
 1538,Jeffrey Sims,5/14/2016,shot,gun,Gun,59,M,White,0.601,Osteen,FL,FALSE,attack,Not fleeing,FALSE,-81.134,28.9,TRUE
 1540,Ryan Johnson,5/14/2016,shot and Tasered,gun,Gun,34,M,White,0.601,Stockbridge,GA,TRUE,other,Not fleeing,FALSE,-84.191,33.591,TRUE
 1541,"Dracy ""Clint"" Pendleton",5/15/2016,shot,gun,Gun,35,M,White,0.601,Shawnee National Forest,IL,FALSE,attack,Foot,FALSE,-88.4,37.547,TRUE
@@ -1371,12 +1371,12 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 1559,Joshua Beebee,5/20/2016,shot,knife,Other Weapon,31,M,Black,0.134,Omaha,NE,FALSE,other,Foot,TRUE,-96.173,41.292,TRUE
 1552,Norman Campbell,5/21/2016,shot,gun,Gun,63,M,White,0.601,Chesterfield County,SC,FALSE,attack,Not fleeing,FALSE,,,TRUE
 1553,Travis Moore,5/21/2016,shot,unarmed,Unarmed,38,M,White,0.601,Oregon City,OR,TRUE,attack,Not fleeing,FALSE,-122.615,45.351,TRUE
-1556,Mark Nelson,5/21/2016,shot,gun,Gun,31,M,Native America,0.006,Flagstaff,AZ,TRUE,attack,Not fleeing,TRUE,,,TRUE
+1556,Mark Nelson,5/21/2016,shot,gun,Gun,31,M,Native American,0.006,Flagstaff,AZ,TRUE,attack,Not fleeing,TRUE,,,TRUE
 1554,Michael Eugene Wilson Jr.,5/22/2016,shot,unarmed,Unarmed,27,M,Black,0.134,Hallandale Beach,FL,FALSE,other,Car,TRUE,-80.125,25.981,TRUE
 1555,Jorge Zambrano,5/22/2016,shot,gun,Gun,35,M,Hispanic,0.185,Oxford,MA,FALSE,attack,Not fleeing,FALSE,,,TRUE
 1562,Vernell Bing,5/22/2016,shot,unarmed,Unarmed,22,M,Black,0.134,Jacksonville,FL,FALSE,other,Car,FALSE,-81.853,30.234,TRUE
 1563,Bryson Fischer,5/22/2016,shot,gun,Gun,28,M,White,0.601,Boulder,CO,TRUE,attack,Not fleeing,FALSE,-105.282,40.027,TRUE
-1560,Verl Bedonie,5/23/2016,shot,gun,Gun,26,M,Native America,0.006,Flagstaff,AZ,FALSE,attack,Foot,TRUE,-111.655,35.198,TRUE
+1560,Verl Bedonie,5/23/2016,shot,gun,Gun,26,M,Native American,0.006,Flagstaff,AZ,FALSE,attack,Foot,TRUE,-111.655,35.198,TRUE
 1561,Bodhi Wilson Dean Phelps,5/24/2016,shot,knife,Other Weapon,22,M,White,0.601,Gresham,OR,FALSE,other,Not fleeing,FALSE,-122.469,45.507,TRUE
 1564,Leslie Goletz,5/24/2016,shot,Taser,Other Weapon,57,M,,0.006,Harrisonville,MO,FALSE,other,Car,FALSE,-94.362,38.646,TRUE
 1567,Mario Montoya,5/24/2016,shot,gun,Gun,31,M,Hispanic,0.185,Albuquerque,NM,FALSE,attack,Not fleeing,FALSE,-106.51,35.069,TRUE
@@ -1405,7 +1405,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 1588,Willie Demetrius James,6/2/2016,shot,knife,Other Weapon,43,M,Black,0.134,Norfolk,VA,TRUE,other,Not fleeing,TRUE,-76.282,36.848,TRUE
 1589,Rodney Rodriguez Smith,6/2/2016,shot,gun,Gun,18,M,Black,0.134,Charlotte,NC,FALSE,other,Not fleeing,TRUE,-80.757,35.291,TRUE
 1590,Joshua Smith,6/3/2016,shot,knife,Other Weapon,33,M,White,0.601,Wasilla,AK,FALSE,other,Not fleeing,FALSE,-149.439,61.581,TRUE
-1591,"Hubert Thomas Burns, Jr.",6/3/2016,shot,knife,Other Weapon,34,M,Native America,0.006,Parker,AZ,FALSE,other,Not fleeing,FALSE,-112.139,33.863,TRUE
+1591,"Hubert Thomas Burns, Jr.",6/3/2016,shot,knife,Other Weapon,34,M,Native American,0.006,Parker,AZ,FALSE,other,Not fleeing,FALSE,-112.139,33.863,TRUE
 1592,Daniel Jonathan Shaham,6/4/2016,shot,undetermined,Other Weapon,31,M,White,0.601,Yreka,CA,FALSE,attack,Not fleeing,FALSE,-122.634,41.735,TRUE
 1594,Demarco Rhymes,6/4/2016,shot,gun,Gun,35,M,Black,0.134,Eufaula,AL,FALSE,attack,Other,TRUE,,,TRUE
 1598,Larry Dustin Stepp,6/4/2016,shot,knife,Other Weapon,31,M,White,0.601,Muncie,IN,TRUE,other,Not fleeing,TRUE,-85.401,40.173,TRUE
@@ -1541,7 +1541,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 1727,Bernard Wells,7/23/2016,shot,gun,Gun,31,M,Black,0.134,Chino,CA,FALSE,attack,Foot,FALSE,-117.689,34.033,TRUE
 1836,Steven Alfred Longoria,7/23/2016,shot,gun,Gun,34,M,Hispanic,0.185,San Antonio,TX,FALSE,attack,Not fleeing,FALSE,-98.571,29.413,TRUE
 1729,Robert Lee Lourenco,7/24/2016,shot,hatchet and gun,Other Weapon,36,M,White,0.601,Winchester,CA,TRUE,attack,Not fleeing,FALSE,-117.048,33.729,TRUE
-1730,Alvin R. Sylversmythe,7/24/2016,shot,knife,Other Weapon,29,M,Native America,0.006,Gallup,NM,TRUE,other,Not fleeing,FALSE,-108.759,35.52,TRUE
+1730,Alvin R. Sylversmythe,7/24/2016,shot,knife,Other Weapon,29,M,Native American,0.006,Gallup,NM,TRUE,other,Not fleeing,FALSE,-108.759,35.52,TRUE
 1731,Jeff Cornell Tyson,7/25/2016,shot,gun,Gun,32,M,Black,0.134,Indianapolis,IN,FALSE,attack,Car,FALSE,-86.113,39.765,TRUE
 1732,Richard Risher,7/25/2016,shot,gun,Gun,18,M,Black,0.134,Los Angeles,CA,FALSE,attack,Foot,FALSE,-118.249,33.935,TRUE
 1733,Scot Minard,7/26/2016,shot,gun,Gun,50,M,White,0.601,Pine River,WI,FALSE,attack,Car,FALSE,-89.592,45.171,TRUE
@@ -1685,7 +1685,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 1886,Joseph Allen Schlosser,9/15/2016,shot,gun,Gun,69,M,White,0.601,Weeki Wachi,FL,TRUE,other,Not fleeing,FALSE,-82.554,28.558,TRUE
 1885,Morgan Wayne Crocker,9/15/2016,shot and Tasered,gun,Gun,34,M,White,0.601,Austin,TX,FALSE,attack,Foot,FALSE,-97.834,30.228,TRUE
 1887,Thomas P. Mone,9/16/2016,shot,gun,Gun,46,M,,0.006,Big Bear,MO,FALSE,attack,Not fleeing,FALSE,-91.832,37.964,TRUE
-1889,Jesse Beshaw,9/16/2016,shot,unarmed,Unarmed,29,M,Native America,0.006,Winooski,VT,FALSE,other,Foot,TRUE,-73.191,44.492,TRUE
+1889,Jesse Beshaw,9/16/2016,shot,unarmed,Unarmed,29,M,Native American,0.006,Winooski,VT,FALSE,other,Foot,TRUE,-73.191,44.492,TRUE
 1893,Lucas Anderson,9/16/2016,shot,knife,Other Weapon,29,M,White,0.601,Owensboro,KY,FALSE,attack,Not fleeing,FALSE,-87.147,37.77,TRUE
 1888,Terence Crutcher,9/16/2016,shot and Tasered,unarmed,Unarmed,40,M,Black,0.134,Tulsa,OK,FALSE,other,Not fleeing,FALSE,-95.958,36.206,TRUE
 1890,Robert Duh,9/17/2016,shot,hatchet,Other Weapon,42,M,White,0.601,Beaumont,CA,FALSE,other,Not fleeing,FALSE,-116.949,33.929,TRUE
@@ -1747,7 +1747,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 1954,Luis Michael Hoff,10/9/2016,shot,gun,Gun,40,M,White,0.601,Scottsdale,AZ,TRUE,other,Car,FALSE,-111.961,33.668,TRUE
 1949,Dennis Hunt,10/10/2016,shot,gun,Gun,50,M,,0.006,Lumberton,NC,FALSE,other,Not fleeing,FALSE,-79.057,34.62,TRUE
 1950,Maurico Barron,10/10/2016,shot,undetermined,Other Weapon,27,M,Hispanic,0.185,Irvine,CA,TRUE,other,Not fleeing,FALSE,-117.795,33.684,TRUE
-1951,Kheyanev Littledog,10/10/2016,shot,gun,Gun,19,M,Native America,0.006,Midland,TX,FALSE,other,,FALSE,-102.033,32.011,TRUE
+1951,Kheyanev Littledog,10/10/2016,shot,gun,Gun,19,M,Native American,0.006,Midland,TX,FALSE,other,,FALSE,-102.033,32.011,TRUE
 1952,Devan Desnoyers,10/10/2016,shot,,Other Weapon,26,M,White,0.601,Westlake,OH,FALSE,other,Car,FALSE,-82.907,40.417,TRUE
 1957,Michael L. Taylor,10/11/2016,shot,knife,Other Weapon,44,M,Asian,0.061,Seattle,WA,FALSE,other,Not fleeing,FALSE,,,TRUE
 1958,Dominick Musulman,10/11/2016,shot,knife,Other Weapon,30,M,White,0.601,Concord,CA,FALSE,other,Not fleeing,FALSE,-122.028,37.972,TRUE
@@ -1774,7 +1774,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 1978,Anthony Garcia,10/19/2016,shot,gun,Gun,24,M,,0.006,Dallas,TX,FALSE,other,Not fleeing,FALSE,-96.877,32.741,TRUE
 1982,Javier Munoz,10/19/2016,shot,undetermined,Other Weapon,28,M,Hispanic,0.185,Henderson,NV,FALSE,attack,Car,FALSE,-115.028,36.044,TRUE
 1980,Jacob DePetris,10/20/2016,shot,gun,Gun,29,M,White,0.601,Jacksonville,FL,FALSE,attack,Not fleeing,FALSE,-81.583,30.467,TRUE
-1988,Renee Davis,10/21/2016,shot,gun,Gun,23,F,Native America,0.006,Muckleshoot Indian Reservation,WA,TRUE,other,Not fleeing,FALSE,-122.131,47.259,TRUE
+1988,Renee Davis,10/21/2016,shot,gun,Gun,23,F,Native American,0.006,Muckleshoot Indian Reservation,WA,TRUE,other,Not fleeing,FALSE,-122.131,47.259,TRUE
 1983,William Frost,10/21/2016,shot and Tasered,knife,Other Weapon,58,M,White,0.601,Tulsa,OK,FALSE,other,,FALSE,-95.928,36.16,TRUE
 1986,Nathaniel B. Dorough,10/22/2016,shot,unknown weapon,Other Weapon,21,M,White,0.601,Westover,AL,TRUE,other,Not fleeing,FALSE,-86.565,33.357,TRUE
 1984,Kristofer Daniel Youngquist,10/23/2016,shot,toy weapon,Toy,45,M,White,0.601,Peterson,MN,FALSE,attack,Not fleeing,FALSE,-91.835,43.786,TRUE
@@ -1915,7 +1915,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 2138,Jeremiah N. Anderson,12/16/2016,shot,gun,Gun,36,M,,0.006,Dallas,OR,FALSE,attack,Not fleeing,FALSE,,,TRUE
 2132,Jimmy Lee Lawson,12/17/2016,shot,knife,Other Weapon,48,M,White,0.601,Arlington,TN,FALSE,undetermined,Not fleeing,FALSE,-89.749,35.319,TRUE
 2134,Fidel Barrios,12/17/2016,shot,gun,Gun,33,M,Hispanic,0.185,Los Angeles,CA,FALSE,other,Not fleeing,FALSE,-118.163,34.022,TRUE
-2137,Chassady LeClair,12/17/2016,shot,gun,Gun,44,M,Native America,0.006,Everett,WA,FALSE,other,Not fleeing,FALSE,-122.214,47.966,TRUE
+2137,Chassady LeClair,12/17/2016,shot,gun,Gun,44,M,Native American,0.006,Everett,WA,FALSE,other,Not fleeing,FALSE,-122.214,47.966,TRUE
 2133,Ryan Joseph,12/18/2016,shot,undetermined,Other Weapon,20,M,Black,0.134,Los Angeles,CA,FALSE,undetermined,Foot,FALSE,-118.309,33.985,TRUE
 2135,Paul Kolar,12/18/2016,shot,gun,Gun,37,M,White,0.601,Ridgefield,WA,FALSE,other,Not fleeing,FALSE,-122.713,45.83,TRUE
 2136,Ronald Roy Massengale,12/18/2016,shot,gun,Gun,72,M,White,0.601,Tulsa,OK,TRUE,attack,Not fleeing,FALSE,-96.045,36.147,TRUE
@@ -1986,7 +1986,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 2210,Hafez Abousamra,1/11/2017,shot,gun,Gun,41,M,Other,0.006,Lake Elsinore,CA,FALSE,attack,Other,FALSE,-117.283,33.682,TRUE
 2215,Jose A. Fernandez-Ventura,1/11/2017,shot,gun,Gun,38,M,Hispanic,0.185,Camden,NJ,FALSE,attack,Not fleeing,FALSE,-75.086,39.946,TRUE
 2211,Kevin Ernest Tree,1/12/2017,shot,gun,Gun,54,M,White,0.601,Ocala,FL,TRUE,other,Not fleeing,FALSE,-82.141,29.176,TRUE
-2224,Jamison Christopher Anderson,1/12/2017,shot,gun,Gun,20,M,Native America,0.006,Vineland,MN,FALSE,attack,Not fleeing,FALSE,-93.78,46.201,TRUE
+2224,Jamison Christopher Anderson,1/12/2017,shot,gun,Gun,20,M,Native American,0.006,Vineland,MN,FALSE,attack,Not fleeing,FALSE,-93.78,46.201,TRUE
 2227,Rodney L. Hoback,1/12/2017,shot,knife,Other Weapon,26,M,White,0.601,Pearisburg,VA,TRUE,attack,Not fleeing,FALSE,-80.673,37.293,TRUE
 2218,Cameron Johnson,1/13/2017,shot,,Other Weapon,29,M,Other,0.006,Kahuku,HI,FALSE,other,Car,FALSE,-157.938,21.67,TRUE
 2221,Scott Laurance Gilpin,1/14/2017,shot,gun,Gun,47,M,White,0.601,Austin,TX,FALSE,attack,Foot,FALSE,-97.806,30.445,TRUE
@@ -2004,7 +2004,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 2231,Genevive Dawes,1/18/2017,shot,unarmed,Unarmed,21,F,White,0.601,Dallas,TX,FALSE,other,Car,TRUE,-96.764,32.793,TRUE
 2232,Daniel Darnell Stroughter,1/18/2017,shot,hatchet,Other Weapon,50,M,White,0.601,Los Angeles,CA,FALSE,other,Car,FALSE,-118.261,34.03,TRUE
 2243,Marquis Thomas,1/18/2017,shot,gun,Gun,19,M,Black,0.134,Gary,IN,FALSE,attack,Car,FALSE,-87.328,41.542,TRUE
-2245,Melvin DeLong,1/18/2017,shot,gun,Gun,28,M,Native America,0.006,Grand Forks,ND,FALSE,attack,Not fleeing,FALSE,-97.033,47.925,FALSE
+2245,Melvin DeLong,1/18/2017,shot,gun,Gun,28,M,Native American,0.006,Grand Forks,ND,FALSE,attack,Not fleeing,FALSE,-97.033,47.925,FALSE
 2225,Marlon Joel Rodas-Sanchez,1/18/2017,shot and Tasered,knife,Other Weapon,16,M,Hispanic,0.185,Salinas,CA,FALSE,other,Not fleeing,TRUE,-121.635,36.679,TRUE
 2242,William D. Fisher,1/19/2017,shot,gun,Gun,49,M,White,0.601,Woodford,VA,TRUE,other,Not fleeing,FALSE,-77.402,38.18,TRUE
 2244,Christopher Garza,1/19/2017,shot,gun,Gun,44,M,Hispanic,0.185,Fritch,TX,FALSE,attack,Foot,FALSE,-101.603,35.64,TRUE
@@ -2074,7 +2074,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 2347,Kenneth B. Huntzinger,2/7/2017,shot,,Other Weapon,51,M,White,0.601,Richmond,KY,FALSE,other,,FALSE,-84.259,37.674,TRUE
 2308,Alex Christopher Davis,2/7/2017,shot and Tasered,piece of wood,Other Weapon,18,M,White,0.601,Jackson County,AL,FALSE,other,Not fleeing,FALSE,-85.807,34.695,TRUE
 2307,Donald Parker,2/8/2017,shot,gun,Gun,29,M,White,0.601,Brookville,IN,FALSE,other,Not fleeing,FALSE,-85.013,39.428,TRUE
-2314,Henry James Hunter,2/8/2017,shot,knife,Other Weapon,34,M,Native America,0.006,Anadarko,OK,FALSE,other,,FALSE,-98.246,35.082,TRUE
+2314,Henry James Hunter,2/8/2017,shot,knife,Other Weapon,34,M,Native American,0.006,Anadarko,OK,FALSE,other,,FALSE,-98.246,35.082,TRUE
 2343,Chad Robertson,2/8/2017,shot,unarmed,Unarmed,25,M,Black,0.134,Chicago,IL,FALSE,other,Foot,FALSE,-87.64,41.879,TRUE
 2316,Quanice Derrick Hayes,2/9/2017,shot,toy weapon,Toy,17,M,Black,0.134,Portland,OR,FALSE,undetermined,Foot,FALSE,-122.578,45.536,TRUE
 2319,,2/9/2017,shot,undetermined,Other Weapon,,M,,0.006,Crownpoint,NM,FALSE,undetermined,,FALSE,-108.136,35.68,TRUE
@@ -2154,7 +2154,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 2398,Rafael Navarro-Garcia,3/2/2017,shot,gun,Gun,25,M,Hispanic,0.185,Reno,NV,FALSE,attack,Not fleeing,FALSE,-119.789,39.497,TRUE
 2435,Ramon Andrade,3/2/2017,shot,knife,Other Weapon,37,M,Hispanic,0.185,Paterson,NJ,TRUE,other,Not fleeing,FALSE,-74.165,40.901,TRUE
 2401,Michael Kocher,3/3/2017,shot,gun,Gun,32,M,White,0.601,Englewood,CO,TRUE,other,Not fleeing,FALSE,-104.99,39.664,TRUE
-2403,Dave Phoenix,3/3/2017,shot,toy weapon,Toy,25,M,Native America,0.006,Lemoore,CA,FALSE,attack,Not fleeing,FALSE,-119.763,36.232,TRUE
+2403,Dave Phoenix,3/3/2017,shot,toy weapon,Toy,25,M,Native American,0.006,Lemoore,CA,FALSE,attack,Not fleeing,FALSE,-119.763,36.232,TRUE
 2399,George Lee Seeton,3/4/2017,shot,,Other Weapon,38,M,White,0.601,Oklahoma City,OK,FALSE,attack,Car,TRUE,-97.496,35.432,TRUE
 2400,Joseph Scott Inabinet,3/4/2017,shot,gun,Gun,50,M,White,0.601,Fountain Inn,SC,TRUE,attack,Not fleeing,FALSE,-82.181,34.731,TRUE
 2404,Edward Manning,3/4/2017,shot,metal object,Other Weapon,26,M,White,0.601,Cabazon,CA,FALSE,other,Foot,FALSE,-116.814,33.926,TRUE
@@ -2247,7 +2247,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 2500,Charles Johnston,4/13/2017,shot,gun,Gun,25,M,White,0.601,Udall,KS,FALSE,attack,Car,FALSE,-97.151,37.321,TRUE
 2501,Thomas Gezotis,4/13/2017,shot,gun,Gun,57,M,White,0.601,Suffield,CT,FALSE,other,,FALSE,-72.614,41.999,TRUE
 2502,Charles Shands,4/14/2017,shot,gun,Gun,33,M,White,0.601,Spanaway,WA,TRUE,other,Car,FALSE,-122.355,47.084,TRUE
-2503,Ivan Wilson,4/14/2017,shot,knife,Other Weapon,24,M,Native America,0.006,Mandan,ND,FALSE,other,Not fleeing,FALSE,-100.89,46.827,TRUE
+2503,Ivan Wilson,4/14/2017,shot,knife,Other Weapon,24,M,Native American,0.006,Mandan,ND,FALSE,other,Not fleeing,FALSE,-100.89,46.827,TRUE
 2505,,4/14/2017,shot,gun,Gun,,M,,0.006,Paterson,NJ,TRUE,attack,Not fleeing,FALSE,-74.154,40.923,TRUE
 2506,Olugbalah Ridley,4/15/2017,shot,gun,Gun,33,M,Black,0.134,West Memphis,AR,FALSE,attack,,FALSE,-90.153,35.154,TRUE
 2509,David Airth,4/15/2017,shot,knife,Other Weapon,56,M,White,0.601,Newport Beach,CA,FALSE,other,Not fleeing,FALSE,-117.948,33.626,TRUE
@@ -2417,7 +2417,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 2674,Joseph Paul Hogan,6/17/2017,shot,gun,Gun,48,M,White,0.601,Rapid City,SD,FALSE,attack,Not fleeing,FALSE,-103.219,44.129,TRUE
 2672,Charleena Lyles,6/18/2017,shot,knife,Other Weapon,30,F,Black,0.134,Seattle,WA,TRUE,other,Not fleeing,FALSE,-122.262,47.678,TRUE
 2675,William Webster,6/18/2017,shot,gun,Gun,64,M,White,0.601,Waukesha,WI,TRUE,other,Not fleeing,FALSE,-88.256,43.03,TRUE
-2680,Matthew Colton Stover,6/19/2017,shot,gun,Gun,21,M,Native America,0.006,Fairbanks,AK,TRUE,attack,Foot,FALSE,-147.76,64.833,TRUE
+2680,Matthew Colton Stover,6/19/2017,shot,gun,Gun,21,M,Native American,0.006,Fairbanks,AK,TRUE,attack,Foot,FALSE,-147.76,64.833,TRUE
 2681,Alton Folmar,6/19/2017,shot,gun,Gun,28,M,White,0.601,Dallas,TX,FALSE,other,Not fleeing,FALSE,-96.642,32.746,TRUE
 2684,David Pacas,6/20/2017,shot,toy weapon,Toy,36,M,Hispanic,0.185,South Gate,CA,FALSE,attack,Other,FALSE,-118.205,33.963,TRUE
 2685,David Bryan Creson,6/20/2017,shot,gun,Gun,40,M,White,0.601,Franklin,TN,FALSE,attack,Car,FALSE,-86.832,35.858,TRUE
@@ -2462,7 +2462,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 2740,Cody Ray McCray,7/4/2017,shot,,Other Weapon,32,M,Hispanic,0.185,Centerville,UT,TRUE,undetermined,Car,FALSE,-111.9,40.922,TRUE
 2741,Donald Martin,7/4/2017,shot,gun,Gun,39,M,White,0.601,Belleville,IL,TRUE,attack,Not fleeing,FALSE,-90.014,38.517,TRUE
 2750,Douglas West,7/4/2017,shot,gun,Gun,46,M,White,0.601,Richland,WA,FALSE,other,Not fleeing,FALSE,-119.353,46.266,TRUE
-2926,Tyrone Orvy Peabody,7/4/2017,shot,gun,Gun,53,M,Native America,0.006,Pleasant View,CO,FALSE,attack,Not fleeing,FALSE,-108.831,37.55,TRUE
+2926,Tyrone Orvy Peabody,7/4/2017,shot,gun,Gun,53,M,Native American,0.006,Pleasant View,CO,FALSE,attack,Not fleeing,FALSE,-108.831,37.55,TRUE
 2927,Zepp Crouchet,7/4/2017,shot,gun,Gun,42,M,Black,0.134,Antioch,CA,FALSE,other,Car,FALSE,-121.788,38.009,TRUE
 2742,Alexander Bonds,7/5/2017,shot,gun,Gun,34,M,Black,0.134,New York,NY,FALSE,attack,Foot,FALSE,,,TRUE
 2743,Tiffany Lynn Potter,7/5/2017,shot,gun,Gun,29,F,White,0.601,Des Moines,IA,FALSE,attack,Foot,TRUE,-93.601,41.608,TRUE
@@ -2489,7 +2489,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 2768,Steve Scott,7/11/2017,shot,gun,Gun,48,M,White,0.601,Poplar Bluff,MO,FALSE,other,Not fleeing,FALSE,-90.429,36.783,TRUE
 2769,Antonio Garcia Jr.,7/11/2017,shot,knife,Other Weapon,47,M,Black,0.134,Leavenworth,KS,FALSE,undetermined,Not fleeing,FALSE,-94.91,39.302,TRUE
 2770,Silas Andrew Smith,7/11/2017,shot,gun,Gun,54,M,White,0.601,Golden Valley,AZ,FALSE,attack,Foot,FALSE,-114.223,35.222,TRUE
-2771,Dorsey Glenn Taulbee Jr.,7/12/2017,shot,gun,Gun,33,M,Native America,0.006,Oklahoma City,OK,FALSE,attack,Not fleeing,FALSE,-97.567,35.442,TRUE
+2771,Dorsey Glenn Taulbee Jr.,7/12/2017,shot,gun,Gun,33,M,Native American,0.006,Oklahoma City,OK,FALSE,attack,Not fleeing,FALSE,-97.567,35.442,TRUE
 2772,James Gerald Davis,7/12/2017,shot,undetermined,Other Weapon,40,M,White,0.601,Lake View,SC,TRUE,other,Not fleeing,FALSE,-79.252,34.348,TRUE
 2773,Keith Alan Eustace,7/12/2017,shot,blunt object,Other Weapon,58,M,White,0.601,Grover Beach,CA,FALSE,other,Not fleeing,FALSE,-120.619,35.124,TRUE
 2774,Chancey Chamblee,7/13/2017,shot,gun,Gun,55,M,White,0.601,Pima,AZ,FALSE,undetermined,,FALSE,-111.223,32.091,TRUE
@@ -2621,7 +2621,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 2909,Joshua Mark Cloud,8/29/2017,shot,gun,Gun,22,M,White,0.601,Lincoln Parish,LA,FALSE,attack,Not fleeing,FALSE,-92.786,32.534,TRUE
 2910,Brandy Caldwell,8/29/2017,shot,gun,Gun,46,F,White,0.601,Watagua,TX,TRUE,other,Not fleeing,FALSE,-97.249,32.862,TRUE
 2911,Anthony Antonio Ford,8/30/2017,shot,unarmed,Unarmed,27,M,Black,0.134,Miami,FL,FALSE,other,Foot,FALSE,-80.223,25.837,TRUE
-2918,Thomas Daniel Littlecloud,8/30/2017,shot,gun,Gun,32,M,Native America,0.006,Sacramento,CA,FALSE,attack,Car,FALSE,-121.383,38.611,TRUE
+2918,Thomas Daniel Littlecloud,8/30/2017,shot,gun,Gun,32,M,Native American,0.006,Sacramento,CA,FALSE,attack,Car,FALSE,-121.383,38.611,TRUE
 2912,Issac Cervantes,8/31/2017,shot,gun,Gun,22,M,Hispanic,0.185,Bakersfield,CA,FALSE,attack,Not fleeing,FALSE,-119.021,35.311,TRUE
 2913,Debi Lynn Thorkelson,8/31/2017,shot,gun,Gun,54,F,White,0.601,Fort Myers,FL,FALSE,attack,Not fleeing,FALSE,-81.912,26.431,TRUE
 2914,Michael Battles,9/1/2017,shot,toy weapon,Toy,32,M,White,0.601,Poultney,VT,TRUE,attack,Not fleeing,FALSE,-73.181,43.552,TRUE
@@ -2649,7 +2649,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 2937,Frankie Santos,9/10/2017,shot,gun,Gun,58,M,Hispanic,0.185,Tacoma,WA,FALSE,attack,Not fleeing,FALSE,-122.479,47.206,TRUE
 2938,Spencer Hight,9/10/2017,shot,gun,Gun,32,M,White,0.601,Plano,TX,FALSE,attack,Not fleeing,FALSE,-96.726,33.056,TRUE
 2939,Juan Flores,9/10/2017,shot,,Other Weapon,19,M,Hispanic,0.185,Chicago,IL,FALSE,attack,Not fleeing,TRUE,-87.756,41.919,TRUE
-2945,Thomas Addison,9/11/2017,shot,unknown weapon,Other Weapon,25,M,Native America,0.006,Great Falls,MT,FALSE,other,Foot,FALSE,-111.254,47.515,TRUE
+2945,Thomas Addison,9/11/2017,shot,unknown weapon,Other Weapon,25,M,Native American,0.006,Great Falls,MT,FALSE,other,Foot,FALSE,-111.254,47.515,TRUE
 2946,Brian Patrick Allen,9/11/2017,shot,gun,Gun,48,M,White,0.601,Hixson,TN,FALSE,attack,Car,FALSE,-85.193,35.187,TRUE
 2947,Vincent Edward Hernandez Jr,9/11/2017,shot,toy weapon,Toy,39,M,Hispanic,0.185,Bassett,CA,FALSE,attack,Not fleeing,FALSE,-117.977,34.063,TRUE
 2948,Rodolfo Ballardo,9/13/2017,shot,gun,Gun,31,M,Hispanic,0.185,Quartzsite,AZ,FALSE,attack,Car,FALSE,-114.229,33.662,TRUE
@@ -2691,7 +2691,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 2989,Anthony Wallace,9/27/2017,shot,gun,Gun,44,M,White,0.601,Spring Hill,FL,FALSE,attack,Car,FALSE,-82.478,28.44,TRUE
 2990,Guy Lynn Scott,9/27/2017,shot,gun,Gun,48,M,White,0.601,Griffin,GA,TRUE,attack,Not fleeing,FALSE,-84.285,33.273,TRUE
 2991,Michael Bruce Peterson,9/28/2017,shot,baton,Other Weapon,39,M,White,0.601,Salt Lake City,UT,FALSE,other,Not fleeing,FALSE,-111.877,40.763,TRUE
-3202,Dominique Tyrell White,9/28/2017,shot,gun,Gun,30,M,Native America,0.006,Topeka,KS,FALSE,attack,Foot,FALSE,-95.655,39.052,TRUE
+3202,Dominique Tyrell White,9/28/2017,shot,gun,Gun,30,M,Native American,0.006,Topeka,KS,FALSE,attack,Foot,FALSE,-95.655,39.052,TRUE
 2992,Quentin Starke,9/30/2017,shot,gun,Gun,44,M,White,0.601,Columbua,IN,FALSE,attack,Car,FALSE,-85.921,39.209,TRUE
 2993,Tyrell Dewayne Pinkston,9/30/2017,shot,gun,Gun,28,M,Black,0.134,Palatka,FL,FALSE,other,Not fleeing,FALSE,-81.669,29.648,TRUE
 2994,Lester Jesus Machado,10/1/2017,shot,,Other Weapon,24,M,Hispanic,0.185,Hialeah,FL,FALSE,attack,Car,FALSE,-80.327,25.894,TRUE
@@ -2751,12 +2751,12 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 3053,Victor Gonzalez,10/21/2017,shot,hammer,Other Weapon,44,M,Hispanic,0.185,Cloverdale,CA,FALSE,other,Not fleeing,FALSE,-123.016,38.799,TRUE
 3054,Jason Marble,10/21/2017,shot,gun,Gun,37,M,White,0.601,Girard,OH,FALSE,attack,Not fleeing,FALSE,,,TRUE
 3055,Nicholas Pimentel,10/22/2017,shot,unarmed,Unarmed,27,M,Hispanic,0.185,Ceres,CA,FALSE,other,Car,FALSE,-121.012,37.601,TRUE
-3058,Johnny Bonta,10/22/2017,shot,gun,Gun,43,M,Native America,0.006,Sparks,NV,FALSE,attack,Not fleeing,FALSE,-119.771,39.548,TRUE
+3058,Johnny Bonta,10/22/2017,shot,gun,Gun,43,M,Native American,0.006,Sparks,NV,FALSE,attack,Not fleeing,FALSE,-119.771,39.548,TRUE
 3059,Samantha Hennard,10/22/2017,shot,gun,Gun,25,F,White,0.601,St. Joseph,MO,FALSE,attack,Foot,FALSE,-94.848,39.747,TRUE
-3061,Dexter David Anthony Baxter,10/22/2017,shot,unarmed,Unarmed,30,M,Native America,0.006,Crandon,WI,FALSE,attack,Not fleeing,FALSE,,,TRUE
+3061,Dexter David Anthony Baxter,10/22/2017,shot,unarmed,Unarmed,30,M,Native American,0.006,Crandon,WI,FALSE,attack,Not fleeing,FALSE,,,TRUE
 3062,Matthew David Palaita,10/23/2017,shot,gun,Gun,35,M,Hispanic,0.185,Lodi,CA,FALSE,attack,Not fleeing,FALSE,-121.276,38.146,TRUE
 3064,Ashleigh Bertucci,10/23/2017,shot,gun,Gun,31,F,White,0.601,Shelbyville,KY,TRUE,other,Not fleeing,TRUE,-85.219,38.191,TRUE
-3069,George Gipp,10/23/2017,shot,undetermined,Other Weapon,35,M,Native America,0.006,Standing Rock Reservation,ND,FALSE,other,Car,FALSE,-100.682,46.171,TRUE
+3069,George Gipp,10/23/2017,shot,undetermined,Other Weapon,35,M,Native American,0.006,Standing Rock Reservation,ND,FALSE,other,Car,FALSE,-100.682,46.171,TRUE
 3066,Sean Bohinski,10/24/2017,shot,unarmed,Unarmed,37,M,White,0.601,Plymouth Township,PA,FALSE,attack,Not fleeing,FALSE,-76.019,41.221,TRUE
 3067,Brandon Uzialko,10/24/2017,shot,gun,Gun,25,M,White,0.601,Norwich,CT,FALSE,attack,Foot,FALSE,-72.059,41.53,TRUE
 3065,David Campos,10/24/2017,shot and Tasered,screwdriver,Other Weapon,34,M,Hispanic,0.185,Houston,TX,FALSE,other,Not fleeing,FALSE,-95.565,29.704,TRUE
@@ -2767,13 +2767,13 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 3073,James M. Davis,10/26/2017,shot,gun,Gun,34,M,White,0.601,Horseheads,NY,FALSE,attack,Car,FALSE,-76.747,42.148,TRUE
 3074,Jerry Richardson,10/27/2017,shot,machete,Other Weapon,46,M,Black,0.134,Indiantown,FL,TRUE,other,Not fleeing,FALSE,-80.486,27.024,TRUE
 3075,Danny Sanchez,10/28/2017,shot,gun and car,Other Weapon,40,M,Hispanic,0.185,Greeley,CO,FALSE,attack,Car,FALSE,-104.722,40.434,TRUE
-3076,Lucas DeFord,10/28/2017,shot,gun,Gun,27,M,Native America,0.006,Black River Falls,WI,FALSE,other,Car,TRUE,,,TRUE
+3076,Lucas DeFord,10/28/2017,shot,gun,Gun,27,M,Native American,0.006,Black River Falls,WI,FALSE,other,Car,TRUE,,,TRUE
 3077,Baltazar Escalona-Baez,10/28/2017,shot,knife,Other Weapon,17,M,Hispanic,0.185,Polk County,OR,FALSE,other,Car,FALSE,-123.609,45.059,TRUE
 3078,Eric Higgs,10/29/2017,shot,gun,Gun,46,M,Black,0.134,Tate County,MS,FALSE,attack,Car,FALSE,-89.924,34.515,TRUE
 3080,Mark Bidon,10/29/2017,shot,gun,Gun,50,M,White,0.601,Centennial,CO,FALSE,attack,Not fleeing,FALSE,-104.838,39.58,TRUE
 3107,Brandon Lee Flowers,10/29/2017,shot,knife,Other Weapon,41,M,White,0.601,New Castle,IN,FALSE,attack,Not fleeing,FALSE,-85.37,39.929,TRUE
 3205,Kalin Jackson,10/29/2017,shot,,Other Weapon,23,M,Black,0.134,King of Prussia,PA,FALSE,other,Not fleeing,FALSE,-75.386,40.089,TRUE
-3079,Robert James Lightfeather,10/30/2017,shot,gun,Gun,33,M,Native America,0.006,Federal Way,WA,FALSE,attack,Not fleeing,FALSE,-122.313,47.319,TRUE
+3079,Robert James Lightfeather,10/30/2017,shot,gun,Gun,33,M,Native American,0.006,Federal Way,WA,FALSE,attack,Not fleeing,FALSE,-122.313,47.319,TRUE
 3081,Jesus Birelas-Contreras,10/31/2017,shot,knife,Other Weapon,25,M,Hispanic,0.185,Sunnyvale,CA,FALSE,attack,Not fleeing,FALSE,-122.017,37.397,TRUE
 3082,Luvelle Kennon,10/31/2017,shot,undetermined,Other Weapon,27,M,Black,0.134,Riverside,CA,FALSE,other,Not fleeing,FALSE,-117.343,33.938,TRUE
 3085,Paul Landis Gorden,10/31/2017,shot,gun,Gun,39,M,White,0.601,Livingston,TN,FALSE,attack,Not fleeing,FALSE,-85.341,36.411,TRUE
@@ -2791,7 +2791,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 3093,Nyung Kyee,11/4/2017,shot,knife,Other Weapon,56,M,Asian,0.061,Clarksville,AR,FALSE,attack,Not fleeing,FALSE,-93.485,35.47,TRUE
 3096,Raymond Davis,11/4/2017,shot,gun,Gun,24,M,Black,0.134,Columbus,MS,FALSE,other,Not fleeing,TRUE,-88.407,33.496,TRUE
 3099,Michael Wayne Marin,11/4/2017,shot,gun,Gun,35,M,White,0.601,Parker,CO,FALSE,attack,,FALSE,-104.776,39.522,TRUE
-3100,Frank Half,11/4/2017,shot,gun,Gun,30,M,Native America,0.006,Billings,MT,FALSE,attack,,FALSE,-108.58,45.754,TRUE
+3100,Frank Half,11/4/2017,shot,gun,Gun,30,M,Native American,0.006,Billings,MT,FALSE,attack,,FALSE,-108.58,45.754,TRUE
 3102,Mason Johnson,11/4/2017,shot,gun,Gun,31,M,White,0.601,Owen County,IN,TRUE,attack,Not fleeing,FALSE,-86.757,39.358,TRUE
 3103,Augustus Joshua Crawford,11/4/2017,shot,gun,Gun,20,M,Black,0.134,Bakersfield,CA,FALSE,undetermined,Foot,FALSE,-119.021,35.325,TRUE
 3095,John Quincy Grady,11/5/2017,shot,gun,Gun,35,M,White,0.601,Meridian,MS,FALSE,attack,Not fleeing,FALSE,-88.705,32.395,TRUE
@@ -2804,7 +2804,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 3113,James Jacob Bailey,11/8/2017,shot,gun,Gun,30,M,White,0.601,Forest Park,GA,FALSE,attack,Car,FALSE,-84.369,33.622,TRUE
 3114,Roger Raymond York,11/8/2017,shot,gun,Gun,32,M,White,0.601,Clinton,TN,FALSE,attack,Foot,FALSE,-84.12,36.113,TRUE
 3115,Victor Demetrius Bray,11/8/2017,shot,gun,Gun,31,M,White,0.601,Roanoke,VA,FALSE,other,Not fleeing,FALSE,-79.931,37.298,TRUE
-3117,Jason Ike Pero,11/8/2017,shot,knife,Other Weapon,14,M,Native America,0.006,Odanah,WI,FALSE,other,Not fleeing,FALSE,-90.65,46.597,TRUE
+3117,Jason Ike Pero,11/8/2017,shot,knife,Other Weapon,14,M,Native American,0.006,Odanah,WI,FALSE,other,Not fleeing,FALSE,-90.65,46.597,TRUE
 3118,Paul Jones,11/9/2017,shot,gun,Gun,25,M,Black,0.134,Salisbury,NC,FALSE,attack,Car,FALSE,-80.499,35.666,TRUE
 3119,Joseph Santos,11/9/2017,shot,,Other Weapon,32,M,White,0.601,Providence,RI,FALSE,attack,Car,TRUE,-71.419,41.825,TRUE
 3120,Charles Edwin Nickels,11/9/2017,shot,gun,Gun,35,M,White,0.601,Neshoba County,MS,TRUE,attack,Not fleeing,FALSE,-89.124,32.868,TRUE
@@ -2837,7 +2837,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 3167,Bijan C. Ghaisar,11/17/2017,shot,unarmed,Unarmed,25,M,White,0.601,Fairfax,VA,FALSE,undetermined,Car,FALSE,-77.058,38.747,TRUE
 3208,Seth Hardwick,11/17/2017,shot,gun,Gun,30,M,White,0.601,Charleston,WV,FALSE,attack,Not fleeing,FALSE,-81.62,38.369,TRUE
 3149,Lawrence Hawkins,11/18/2017,shot,unarmed,Unarmed,56,M,Black,0.134,Prichard,AL,FALSE,other,Car,FALSE,-88.102,30.735,TRUE
-3150,Preston Bell,11/18/2017,shot,,Other Weapon,24,M,Native America,0.006,Billings,MT,FALSE,attack,Car,FALSE,-108.513,45.763,TRUE
+3150,Preston Bell,11/18/2017,shot,,Other Weapon,24,M,Native American,0.006,Billings,MT,FALSE,attack,Car,FALSE,-108.513,45.763,TRUE
 3151,Brian Calvert,11/18/2017,shot,,Other Weapon,18,M,White,0.601,Warren County,KY,FALSE,attack,Car,FALSE,-86.545,36.831,TRUE
 3147,Geronimo Vicente Santos,11/19/2017,shot,gun,Gun,34,M,,0.006,Lompoc,CA,FALSE,attack,,FALSE,-120.449,34.65,TRUE
 3148,Jacob McCarty,11/19/2017,shot,gun,Gun,27,M,White,0.601,Greenville County,SC,FALSE,attack,Car,FALSE,-82.425,34.871,TRUE
@@ -2875,14 +2875,14 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 3185,Robert Page,12/6/2017,shot,gun,Gun,71,M,,0.006,Coral Springs,FL,TRUE,undetermined,Not fleeing,FALSE,-80.276,26.245,TRUE
 3186,Scott Addison,12/6/2017,shot,gun,Gun,49,M,White,0.601,Cheyenne,WY,FALSE,attack,Not fleeing,FALSE,-104.768,41.161,TRUE
 3187,Jesse Cole Shuping,12/7/2017,shot,gun,Gun,35,M,White,0.601,Peshtigo,WI,FALSE,attack,Car,FALSE,-87.749,45.054,TRUE
-3188,Kyler Grabbingbear,12/7/2017,shot,unarmed,Unarmed,19,M,Native America,0.006,Denver,CO,FALSE,undetermined,Foot,FALSE,-104.966,39.854,TRUE
+3188,Kyler Grabbingbear,12/7/2017,shot,unarmed,Unarmed,19,M,Native American,0.006,Denver,CO,FALSE,undetermined,Foot,FALSE,-104.966,39.854,TRUE
 3189,John Souder,12/7/2017,shot,gun,Gun,40,M,White,0.601,Old Forge,PA,FALSE,attack,Car,FALSE,,,TRUE
 3190,Frederick Douglas Wilburn,12/7/2017,shot,,Other Weapon,34,M,Black,0.134,Tucson,AZ,FALSE,attack,Car,FALSE,-110.88,32.237,TRUE
 3193,Vernchoy Saechao,12/8/2017,shot,gun,Gun,22,M,Asian,0.061,Redding,CA,FALSE,attack,Not fleeing,FALSE,-122.326,40.567,TRUE
 3191,Juliun Pitcher,12/9/2017,shot,gun,Gun,16,M,White,0.601,Dover,DE,FALSE,attack,Not fleeing,FALSE,-75.558,39.163,TRUE
 3197,James Newman,12/9/2017,shot,gun,Gun,69,M,White,0.601,Rose Bud,AR,FALSE,attack,Not fleeing,FALSE,-91.969,35.331,TRUE
 3192,Kyle Zahacefski,12/10/2017,shot,knife,Other Weapon,24,M,White,0.601,Point Loma,CA,FALSE,other,,FALSE,-117.248,32.731,TRUE
-3194,Kyle Anthony Mihecoby,12/10/2017,shot,Taser,Other Weapon,28,M,Native America,0.006,Oklahoma City,OK,FALSE,attack,Not fleeing,FALSE,-97.424,35.406,TRUE
+3194,Kyle Anthony Mihecoby,12/10/2017,shot,Taser,Other Weapon,28,M,Native American,0.006,Oklahoma City,OK,FALSE,attack,Not fleeing,FALSE,-97.424,35.406,TRUE
 3196,Ira Crawford,12/10/2017,shot,knife,Other Weapon,26,M,,0.006,Mobile,AL,FALSE,attack,Not fleeing,FALSE,-88.09,30.638,TRUE
 3195,Frank Lopez,12/10/2017,shot and Tasered,knife,Other Weapon,48,M,,0.006,Artesia,CA,FALSE,attack,Not fleeing,FALSE,-118.072,33.861,TRUE
 3198,,12/11/2017,shot,gun,Gun,,M,,0.006,Seattle,WA,FALSE,attack,Car,TRUE,-122.253,47.68,TRUE
@@ -2928,7 +2928,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 3245,Robo Raikoglo,12/26/2017,shot,gun,Gun,30,M,White,0.601,Desert Hot Springs,CA,FALSE,attack,Car,FALSE,-116.481,33.951,TRUE
 3246,Brooke Amelia Camacho,12/26/2017,shot,gun,Gun,38,F,Hispanic,0.185,Farmers Branch,TX,FALSE,attack,Not fleeing,FALSE,-96.889,32.924,TRUE
 3247,Salvador Byassee,12/26/2017,shot,knife,Other Weapon,34,M,,0.006,300 block of State Line Road,TN,FALSE,other,Other,FALSE,,,TRUE
-3263,Joshua Paul Spottedhorse,12/26/2017,shot,gun,Gun,36,M,Native America,0.006,Spokane,WA,FALSE,attack,Foot,TRUE,-117.428,47.669,TRUE
+3263,Joshua Paul Spottedhorse,12/26/2017,shot,gun,Gun,36,M,Native American,0.006,Spokane,WA,FALSE,attack,Foot,TRUE,-117.428,47.669,TRUE
 3249,Dennis Plowden,12/27/2017,shot,,Other Weapon,25,M,Black,0.134,Philadelphia,PA,FALSE,attack,Car,FALSE,-75.15,40.052,TRUE
 3250,Andrew Finch,12/27/2017,shot,unarmed,Unarmed,28,M,White,0.601,Wichita,KS,FALSE,other,Not fleeing,FALSE,-97.353,37.673,TRUE
 3267,Kenneth J. Perna-Rutsky,12/27/2017,shot,gun,Gun,38,M,White,0.601,Chester,VA,TRUE,attack,Not fleeing,FALSE,-77.356,37.352,TRUE
@@ -2957,7 +2957,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 3271,Charles Smith Jr.,1/6/2018,shot,gun,Gun,17,M,Black,0.134,Little Rock,AR,FALSE,attack,Not fleeing,FALSE,-92.266,34.806,TRUE
 3272,Jonathan William Leroy,1/6/2018,shot,baseball bat,Other Weapon,39,M,White,0.601,McLoud,OK,FALSE,other,Not fleeing,FALSE,-97.125,35.377,TRUE
 3274,Richard Rangel,1/6/2018,shot,gun,Gun,21,M,White,0.601,Round Rock,TX,FALSE,attack,Not fleeing,FALSE,-97.641,30.504,TRUE
-3280,Skyler Burnette,1/6/2018,shot,knife,Other Weapon,21,M,Native America,0.006,Sparta,WI,FALSE,other,Not fleeing,FALSE,-90.824,43.942,TRUE
+3280,Skyler Burnette,1/6/2018,shot,knife,Other Weapon,21,M,Native American,0.006,Sparta,WI,FALSE,other,Not fleeing,FALSE,-90.824,43.942,TRUE
 3281,Guillermo Mendoza,1/6/2018,shot,gun,Gun,57,M,Hispanic,0.185,San Carlos Park,FL,FALSE,attack,Not fleeing,FALSE,-81.824,26.473,TRUE
 3285,Gregory Stough,1/6/2018,shot,vehicle,Other Weapon,27,M,White,0.601,Manchester Township,PA,FALSE,other,Car,FALSE,-76.751,40.002,TRUE
 4207,Jackie Harlan Roberts,1/6/2018,shot,gun,Gun,62,M,White,0.601,Birmingham,AL,FALSE,attack,Not fleeing,FALSE,-86.66,33.637,TRUE
@@ -3084,7 +3084,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 3415,Preston Ray Holloway,2/14/2018,shot,gun,Gun,27,M,White,0.601,Belton,MO,TRUE,attack,Other,FALSE,-94.494,38.798,TRUE
 3416,Donald Fulton,2/14/2018,shot,gun,Gun,41,M,White,0.601,Mobile,AL,TRUE,attack,Not fleeing,FALSE,-88.173,30.719,TRUE
 3408,Arthur Joseph Gonzales,2/15/2018,shot,gun,Gun,57,M,Hispanic,0.185,Mesa,AZ,FALSE,attack,Not fleeing,FALSE,-111.792,33.411,TRUE
-3417,Fordell Hill,2/15/2018,shot,gun,Gun,27,M,Native America,0.006,Montezuma Creek,UT,FALSE,attack,Car,FALSE,-108.901,37.323,TRUE
+3417,Fordell Hill,2/15/2018,shot,gun,Gun,27,M,Native American,0.006,Montezuma Creek,UT,FALSE,attack,Car,FALSE,-108.901,37.323,TRUE
 3418,Wesley Taylor,2/15/2018,shot,gun,Gun,58,M,White,0.601,Henderson,NC,FALSE,attack,Not fleeing,FALSE,-78.401,36.309,TRUE
 3420,Tim Berger,2/16/2018,shot,unknown weapon,Other Weapon,59,M,White,0.601,Cocoa Beach,FL,TRUE,undetermined,,FALSE,-80.612,28.352,TRUE
 3421,Odrey Paul Reed,2/16/2018,shot,undetermined,Other Weapon,39,M,White,0.601,Sissonville,WV,TRUE,undetermined,,FALSE,-81.657,38.53,TRUE
@@ -3150,7 +3150,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 3482,Victor Ancira,3/7/2018,shot and Tasered,pick-axe,Other Weapon,46,M,Hispanic,0.185,Austin,TX,TRUE,other,Not fleeing,FALSE,-97.688,30.272,TRUE
 3483,Jamil Harvey,3/8/2018,shot,gun,Gun,29,M,Black,0.134,Spotsylvania,VA,FALSE,attack,Other,FALSE,-111.676,40.057,TRUE
 3493,,3/8/2018,shot,toy weapon,Toy,,M,,0.006,Pottstown,PA,TRUE,other,Not fleeing,FALSE,-75.654,40.246,TRUE
-3494,Dwight Heckman,3/8/2018,shot,gun,Gun,27,M,Native America,0.006,Pilot Station,AK,FALSE,attack,Foot,FALSE,,,TRUE
+3494,Dwight Heckman,3/8/2018,shot,gun,Gun,27,M,Native American,0.006,Pilot Station,AK,FALSE,attack,Foot,FALSE,,,TRUE
 4254,,3/8/2018,shot,undetermined,Other Weapon,,M,,0.006,Jurupa Valley,CA,FALSE,undetermined,,FALSE,-117.5,34,TRUE
 3485,Alkeeta Allena Walker,3/9/2018,shot,knife,Other Weapon,32,F,White,0.601,Tarpon Springs,FL,FALSE,other,Not fleeing,FALSE,-82.765,28.15,TRUE
 3492,David Gardea,3/9/2018,shot,gun,Gun,27,M,Hispanic,0.185,Phoenix,AZ,FALSE,attack,Foot,FALSE,-112.164,33.487,TRUE
@@ -3182,7 +3182,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 3502,,3/18/2018,shot,,Other Weapon,,M,,0.006,Lancaster,TX,FALSE,attack,Car,FALSE,-96.768,32.606,TRUE
 3506,Stephon Clark,3/18/2018,shot,unarmed,Unarmed,23,M,Black,0.134,Sacramento,CA,FALSE,other,Foot,TRUE,-121.475,38.487,TRUE
 3509,Manuel Borrego,3/18/2018,shot,knife,Other Weapon,40,M,Hispanic,0.185,South El Monte,CA,FALSE,other,Foot,FALSE,-118.047,34.033,TRUE
-3516,Quintin J. Horner,3/19/2018,shot,gun,Gun,50,M,Native America,0.006,Utica,KY,FALSE,attack,Other,FALSE,-87.095,37.68,TRUE
+3516,Quintin J. Horner,3/19/2018,shot,gun,Gun,50,M,Native American,0.006,Utica,KY,FALSE,attack,Other,FALSE,-87.095,37.68,TRUE
 3517,Michael Lavelle Holliman,3/19/2018,shot,crossbow,Other Weapon,50,M,White,0.601,Lone Rock,AR,FALSE,other,Not fleeing,FALSE,-92.369,36.158,TRUE
 3520,Steven Nguyen,3/19/2018,shot,unarmed,Unarmed,27,M,Asian,0.061,Denver,CO,FALSE,other,Car,FALSE,-104.902,39.776,TRUE
 3515,Jermaine Massey,3/19/2018,shot and Tasered,knife,Other Weapon,35,M,Black,0.134,Greenville,SC,FALSE,other,Not fleeing,TRUE,-82.411,34.87,TRUE
@@ -3190,7 +3190,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 3519,Kent Earl Pittman,3/20/2018,shot,gun,Gun,56,M,White,0.601,Timberlake,NC,TRUE,attack,Not fleeing,FALSE,-78.935,36.331,TRUE
 3528,Chance Christopher Haegele,3/20/2018,shot,gun,Gun,20,M,White,0.601,Winter Haven,FL,TRUE,attack,Not fleeing,FALSE,,,TRUE
 3533,Scott Mielentz,3/20/2018,shot,gun,Gun,56,M,White,0.601,Princeton,NJ,FALSE,other,Not fleeing,FALSE,-74.658,40.35,TRUE
-3523,Duane Preciado,3/21/2018,shot,gun,Gun,39,M,Native America,0.006,Owasso,OK,TRUE,attack,Not fleeing,TRUE,-95.807,36.312,TRUE
+3523,Duane Preciado,3/21/2018,shot,gun,Gun,39,M,Native American,0.006,Owasso,OK,TRUE,attack,Not fleeing,TRUE,-95.807,36.312,TRUE
 3524,Mark Allen Lunn,3/21/2018,shot,knife,Other Weapon,47,M,White,0.601,Mannford,OK,TRUE,other,Not fleeing,FALSE,-96.357,36.122,TRUE
 3525,Jason M. Raffaeli,3/21/2018,shot,gun,Gun,25,M,White,0.601,Amelia Island,FL,TRUE,attack,Not fleeing,FALSE,-81.445,30.59,TRUE
 3534,Jehad Eid,3/21/2018,shot,gun,Gun,21,M,Asian,0.061,San Francisco,CA,FALSE,attack,Not fleeing,FALSE,-122.44,37.716,TRUE
@@ -3206,7 +3206,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 3569,,3/23/2018,shot,unknown weapon,Other Weapon,,M,,0.006,Scottsdale,AZ,FALSE,other,Not fleeing,FALSE,-111.884,33.537,TRUE
 3540,Kevin Robles,3/23/2018,shot and Tasered,knife,Other Weapon,23,M,White,0.601,Phoenix,AZ,FALSE,attack,Not fleeing,FALSE,-112.221,33.495,TRUE
 3537,Nikolai Yakunin,3/24/2018,shot,unarmed,Unarmed,42,M,White,0.601,Nikolaevsk,AK,FALSE,attack,Not fleeing,FALSE,-151.617,59.809,TRUE
-3538,Zander M. Clark,3/24/2018,shot,knife,Other Weapon,20,M,Native America,0.006,Anchorage,AK,FALSE,other,Foot,FALSE,-149.817,61.216,TRUE
+3538,Zander M. Clark,3/24/2018,shot,knife,Other Weapon,20,M,Native American,0.006,Anchorage,AK,FALSE,other,Foot,FALSE,-149.817,61.216,TRUE
 3539,Kaitlin Marie Demeo,3/24/2018,shot,gun,Gun,25,F,White,0.601,Columbus,OH,FALSE,attack,Not fleeing,FALSE,-82.835,39.877,TRUE
 3535,Hugo Alvarez,3/25/2018,shot,gun,Gun,28,M,Hispanic,0.185,Austin,TX,FALSE,attack,Not fleeing,FALSE,-97.756,30.198,TRUE
 3543,Nathan C. Castle,3/26/2018,shot,gun,Gun,34,M,White,0.601,Wise County,VA,FALSE,other,Car,FALSE,,,TRUE
@@ -3288,7 +3288,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 3619,Jessie Thedford,4/14/2018,shot,vehicle,Other Weapon,32,M,White,0.601,Carrollton,GA,FALSE,attack,Not fleeing,FALSE,-85.127,33.628,TRUE
 3620,Eduardo Andrade,4/14/2018,shot,gun,Gun,44,M,Hispanic,0.185,Phoenix,AZ,FALSE,attack,Not fleeing,FALSE,-112.073,33.378,TRUE
 4263,Petrica Peter Muntean,4/14/2018,shot,toy weapon,Toy,24,M,White,0.601,Anaheim,CA,TRUE,attack,Not fleeing,TRUE,-117.934,33.852,TRUE
-3616,Ruben Stewart,4/15/2018,shot,knife,Other Weapon,36,M,Native America,0.006,Lodge Grass,MT,FALSE,other,Not fleeing,FALSE,-107.37,45.317,TRUE
+3616,Ruben Stewart,4/15/2018,shot,knife,Other Weapon,36,M,Native American,0.006,Lodge Grass,MT,FALSE,other,Not fleeing,FALSE,-107.37,45.317,TRUE
 3622,Lonnie Marcel Bowen,4/17/2018,shot,screwdriver,Other Weapon,41,M,Black,0.134,Magna,UT,TRUE,attack,Car,FALSE,-112.092,40.711,TRUE
 3624,Sanchez Lowe,4/17/2018,shot,,Other Weapon,25,M,Black,0.134,Austell,GA,FALSE,attack,Car,FALSE,-84.555,33.772,TRUE
 3625,Justin Monjay,4/17/2018,shot,vehicle,Other Weapon,39,M,White,0.601,Tishomingo,OK,FALSE,attack,Car,FALSE,-96.689,34.25,TRUE
@@ -3296,7 +3296,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 3626,Justin Oakes,4/18/2018,shot,knife,Other Weapon,32,M,White,0.601,Douglasville,GA,FALSE,attack,Not fleeing,TRUE,-84.722,33.747,TRUE
 3627,William Ray Simcoe,4/18/2018,shot,gun,Gun,45,M,White,0.601,Greene County,MO,FALSE,attack,Foot,FALSE,-93.089,37.206,TRUE
 3628,Dytadious Mobley,4/18/2018,shot,gun,Gun,31,M,Black,0.134,Fort Lauderdale,FL,FALSE,attack,Not fleeing,FALSE,-80.154,26.136,TRUE
-3629,Delorean Pikyavit,4/18/2018,shot,knife,Other Weapon,32,M,Native America,0.006,Sugar House,UT,TRUE,other,Not fleeing,FALSE,-111.86,40.744,TRUE
+3629,Delorean Pikyavit,4/18/2018,shot,knife,Other Weapon,32,M,Native American,0.006,Sugar House,UT,TRUE,other,Not fleeing,FALSE,-111.86,40.744,TRUE
 3630,David Teneyuque,4/18/2018,shot,gun,Gun,48,M,Black,0.134,Pavilion Township,MI,FALSE,attack,Not fleeing,FALSE,-85.496,42.245,TRUE
 3634,Lockwood Adrian Gibson,4/20/2018,shot,vehicle,Other Weapon,49,M,White,0.601,Foresthill,CA,TRUE,other,Car,FALSE,-121.054,38.923,TRUE
 3636,James Bauduy,4/20/2018,shot,unarmed,Unarmed,48,M,Black,0.134,Orlando,FL,FALSE,other,Not fleeing,FALSE,-81.38,28.616,TRUE
@@ -3365,7 +3365,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 3749,Benjamin Lee Sellers,5/11/2018,shot,knife,Other Weapon,33,M,White,0.601,Haughton,LA,FALSE,other,Not fleeing,FALSE,-93.51,32.487,TRUE
 3751,Barry Freeman,5/11/2018,shot,gun,Gun,51,M,White,0.601,Evansville,IN,FALSE,attack,Foot,FALSE,-87.548,37.999,TRUE
 3752,Bradley Daniel Webster,5/11/2018,shot,gun,Gun,52,M,White,0.601,Talihina,OK,FALSE,attack,Not fleeing,FALSE,-95.048,34.751,TRUE
-3753,Jacob T. Eldridge,5/11/2018,shot,knife,Other Weapon,24,M,Native America,0.006,Blackfoot,ID,FALSE,attack,Not fleeing,FALSE,-112.356,43.18,TRUE
+3753,Jacob T. Eldridge,5/11/2018,shot,knife,Other Weapon,24,M,Native American,0.006,Blackfoot,ID,FALSE,attack,Not fleeing,FALSE,-112.356,43.18,TRUE
 3693,Darrell J. Bruffy,5/12/2018,shot,gun,Gun,55,M,White,0.601,Columbus,OH,FALSE,attack,Car,FALSE,-83.048,39.932,TRUE
 3686,Willie Rogers Marable,5/13/2018,shot,unknown weapon,Other Weapon,28,M,Black,0.134,Portsmouth,VA,FALSE,other,Not fleeing,FALSE,-76.367,36.815,TRUE
 3689,Philip Steven McMichael,5/13/2018,shot,gun,Gun,36,M,White,0.601,Amite,LA,FALSE,attack,Not fleeing,FALSE,-90.293,30.779,TRUE
@@ -3403,7 +3403,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 3713,Eugene Baylis,5/27/2018,shot,gun,Gun,67,M,White,0.601,Grand Junction,CO,FALSE,attack,Not fleeing,FALSE,-108.511,39.077,TRUE
 3735,,5/27/2018,shot,knife,Other Weapon,,M,,0.006,Everton,MO,TRUE,other,Not fleeing,FALSE,,,TRUE
 3711,Michael Glad,5/28/2018,shot,gun,Gun,23,M,White,0.601,West Jordan,UT,FALSE,attack,Car,FALSE,,,TRUE
-3722,Rabi Brown,5/29/2018,shot,gun,Gun,34,M,Native America,0.006,Phoenix,AZ,FALSE,other,Not fleeing,FALSE,-112.121,33.575,TRUE
+3722,Rabi Brown,5/29/2018,shot,gun,Gun,34,M,Native American,0.006,Phoenix,AZ,FALSE,other,Not fleeing,FALSE,-112.121,33.575,TRUE
 3724,Armando Osuna,5/29/2018,shot,metal pipe,Other Weapon,51,M,Hispanic,0.185,Riverbank,CA,FALSE,attack,Not fleeing,FALSE,-120.94,37.74,TRUE
 3733,Zane Anthony James,5/29/2018,shot,toy weapon,Toy,19,M,White,0.601,Cottonwood Heights,UT,FALSE,other,Foot,FALSE,-111.828,40.63,TRUE
 3721,Bryan Rodriguez,5/30/2018,shot,pick-axe,Other Weapon,29,M,Hispanic,0.185,Los Angeles,CA,FALSE,attack,Foot,TRUE,-118.43,34.268,TRUE
@@ -3500,7 +3500,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 3970,Terrell Eason,7/3/2018,shot,gun,Gun,33,M,Black,0.134,Chicago,IL,FALSE,other,Foot,TRUE,-87.743,41.886,TRUE
 3969,Millard Clark,7/3/2018,shot and Tasered,knife,Other Weapon,41,M,White,0.601,Lawton,OK,FALSE,attack,Not fleeing,FALSE,,,TRUE
 3821,Ryan Force,7/4/2018,shot,gun,Gun,35,M,,0.006,Spalding County,GA,TRUE,attack,Not fleeing,TRUE,-84.345,33.285,TRUE
-3822,Emmanuel Bitsuie,7/4/2018,shot,knife,Other Weapon,32,M,Native America,0.006,Pueblo,CO,FALSE,attack,Not fleeing,FALSE,-104.613,38.246,TRUE
+3822,Emmanuel Bitsuie,7/4/2018,shot,knife,Other Weapon,32,M,Native American,0.006,Pueblo,CO,FALSE,attack,Not fleeing,FALSE,-104.613,38.246,TRUE
 3834,Abraham Noe Flores,7/4/2018,shot,gun,Gun,34,M,Hispanic,0.185,Red Bluff,CA,TRUE,attack,Not fleeing,FALSE,-122.221,40.156,TRUE
 3825,Daniel A. Fuller,7/5/2018,shot,unarmed,Unarmed,26,M,White,0.601,Devil's Lake,ND,FALSE,attack,Foot,TRUE,-98.865,48.113,TRUE
 3826,Raad Fakhri Salman,7/5/2018,shot,knife,Other Weapon,62,M,Asian,0.061,Louisville,KY,FALSE,other,Not fleeing,FALSE,-85.762,38.174,TRUE
@@ -3592,7 +3592,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 3926,Emmanuel Alquisiras,8/3/2018,shot,Taser,Other Weapon,29,M,Hispanic,0.185,Seville,FL,TRUE,other,Not fleeing,TRUE,-81.493,29.316,TRUE
 3921,Eric Benjamen Richards,8/4/2018,shot,gun,Gun,33,M,White,0.601,Liberty,MO,TRUE,attack,Not fleeing,FALSE,-94.439,39.234,TRUE
 3922,John Randolph,8/4/2018,shot,gun,Gun,38,M,White,0.601,Delray Beach,FL,TRUE,other,Not fleeing,FALSE,-80.101,26.451,TRUE
-3913,"William ""Billy"" James Hughes",8/5/2018,shot,gun,Gun,43,M,Native America,0.006,St. Paul,MN,FALSE,other,Not fleeing,TRUE,-93.138,44.952,TRUE
+3913,"William ""Billy"" James Hughes",8/5/2018,shot,gun,Gun,43,M,Native American,0.006,St. Paul,MN,FALSE,other,Not fleeing,TRUE,-93.138,44.952,TRUE
 3914,Kevin Rhinehart,8/5/2018,shot,gun,Gun,58,M,,0.006,Hesperia,CA,FALSE,other,Not fleeing,FALSE,-117.351,34.421,TRUE
 3916,James Bishop,8/5/2018,shot,baseball bat,Other Weapon,29,M,White,0.601,Las Cruces,NM,TRUE,attack,Not fleeing,FALSE,-106.768,32.339,TRUE
 3918,Johnny Fisher,8/5/2018,shot,gun,Gun,68,M,White,0.601,Van Buren,AR,FALSE,attack,Not fleeing,FALSE,-94.368,35.472,TRUE
@@ -3719,7 +3719,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 4080,,10/5/2018,shot,gun,Gun,,M,,0.006,Hayti,MO,FALSE,attack,Not fleeing,FALSE,,,TRUE
 4156,Sershawn Martez Dillon,10/5/2018,shot,gun,Gun,31,M,Black,0.134,Nashville,TN,FALSE,attack,Not fleeing,FALSE,-86.823,36.199,TRUE
 4157,Phillip Samuel Moskios,10/5/2018,shot,gun,Gun,48,M,White,0.601,Klamath Falls,OR,FALSE,attack,Foot,FALSE,-121.919,42.518,TRUE
-4160,Venson Kee Yazzie,10/5/2018,shot,knife,Other Weapon,43,M,Native America,0.006,Chinle,AZ,FALSE,other,Not fleeing,FALSE,,,TRUE
+4160,Venson Kee Yazzie,10/5/2018,shot,knife,Other Weapon,43,M,Native American,0.006,Chinle,AZ,FALSE,other,Not fleeing,FALSE,,,TRUE
 4076,Tison Dinney,10/7/2018,shot,machete,Other Weapon,51,M,,0.006,Honolulu,HI,TRUE,attack,Not fleeing,TRUE,-157.857,21.305,TRUE
 4077,Nicholas Salisbury,10/7/2018,shot,toy weapon,Toy,36,M,White,0.601,Auburn,CA,TRUE,attack,Not fleeing,FALSE,-121.107,38.938,TRUE
 4078,Anthony Lee Hodges,10/7/2018,shot,gun,Gun,39,M,White,0.601,Lawtey,FL,TRUE,attack,Not fleeing,FALSE,-82.116,30.028,TRUE
@@ -3767,7 +3767,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 4121,Jason Whittle,10/22/2018,shot,knife,Other Weapon,26,M,White,0.601,Riverton,UT,FALSE,attack,Not fleeing,FALSE,-111.931,40.537,TRUE
 4123,William David Williamson,10/22/2018,shot,unknown weapon,Other Weapon,61,M,White,0.601,Newport,TN,FALSE,attack,Not fleeing,FALSE,-83.182,36.073,TRUE
 4120,Tafahree Maynard,10/22/2018,shot and Tasered,lawn mower blade,Other Weapon,18,M,Black,0.134,Snellville,GA,FALSE,other,Not fleeing,FALSE,,,TRUE
-4127,Shaunday Mullins,10/23/2018,shot,gun,Gun,37,M,Native America,0.006,Tulsa,OK,FALSE,attack,Not fleeing,FALSE,-95.923,36.148,TRUE
+4127,Shaunday Mullins,10/23/2018,shot,gun,Gun,37,M,Native American,0.006,Tulsa,OK,FALSE,attack,Not fleeing,FALSE,-95.923,36.148,TRUE
 4131,Robert Mitchell,10/23/2018,shot,undetermined,Other Weapon,27,M,White,0.601,Davenport,IA,FALSE,undetermined,Car,FALSE,-90.572,41.587,TRUE
 4133,Nickolas Michael Peters,10/23/2018,shot,unarmed,Unarmed,24,M,White,0.601,Alderwood Manor,WA,FALSE,attack,Car,FALSE,-122.239,47.824,TRUE
 4162,Salvador Morales,10/23/2018,shot,gun,Gun,37,M,Hispanic,0.185,Pittsburg,CA,FALSE,attack,Car,TRUE,-121.888,38.029,TRUE
@@ -3855,7 +3855,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 4217,,11/28/2018,shot,gun,Gun,,M,,0.006,Lakewood,CO,FALSE,attack,Foot,FALSE,-105.054,39.737,TRUE
 4219,Benjamin Kennedy,11/28/2018,shot,gun,Gun,35,M,White,0.601,Louisville,KY,FALSE,attack,,TRUE,-85.572,38.167,TRUE
 4221,David Villagran,11/28/2018,shot,vehicle,Other Weapon,33,M,Hispanic,0.185,Vancouver,WA,FALSE,attack,Car,FALSE,-122.561,45.674,TRUE
-4218,Vernon May,11/29/2018,shot,gun,Gun,32,M,Native America,0.006,Bemidji,MN,FALSE,other,Not fleeing,TRUE,-94.896,47.498,TRUE
+4218,Vernon May,11/29/2018,shot,gun,Gun,32,M,Native American,0.006,Bemidji,MN,FALSE,other,Not fleeing,TRUE,-94.896,47.498,TRUE
 4222,Adrian Bunker,11/29/2018,shot,unknown weapon,Other Weapon,37,M,White,0.601,Old Town,ME,FALSE,undetermined,Not fleeing,FALSE,-68.676,44.921,TRUE
 4227,,11/30/2018,shot,gun,Gun,46,M,,0.006,Phoenix,AZ,FALSE,attack,Not fleeing,FALSE,-112.134,33.48,TRUE
 4241,Ricardo Galvan,11/30/2018,shot,gun,Gun,37,M,Hispanic,0.185,Ogden,UT,FALSE,attack,Not fleeing,TRUE,,,TRUE
@@ -4001,7 +4001,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 4395,Jimmy Atchison,1/22/2019,shot,unarmed,Unarmed,21,M,Black,0.134,Atlanta,GA,FALSE,undetermined,Foot,FALSE,-84.491,33.752,TRUE
 4405,Preston Oszust,1/23/2019,shot,unarmed,Unarmed,20,M,White,0.601,Flagstaff,AZ,FALSE,undetermined,Foot,FALSE,-111.681,35.188,TRUE
 4407,Dwight Steward,1/23/2019,shot,knife,Other Weapon,46,M,Black,0.134,Spokane,WA,FALSE,other,,FALSE,-117.426,47.691,TRUE
-4408,,1/23/2019,shot,undetermined,Other Weapon,,M,Native America,0.006,Naschitti,NM,FALSE,undetermined,,FALSE,-108.682,36.065,TRUE
+4408,,1/23/2019,shot,undetermined,Other Weapon,,M,Native American,0.006,Naschitti,NM,FALSE,undetermined,,FALSE,-108.682,36.065,TRUE
 4414,Marcus Gishal,1/23/2019,shot,gun,Gun,20,M,Hispanic,0.185,Flagstaff,AZ,FALSE,attack,Foot,FALSE,-111.679,35.192,TRUE
 4406,Kevin Grant Vawter,1/23/2019,shot and Tasered,knife,Other Weapon,46,M,White,0.601,South Haven,IN,TRUE,attack,Not fleeing,TRUE,-87.143,41.536,TRUE
 4409,Katlyn Alix,1/24/2019,shot,unarmed,Unarmed,24,F,White,0.601,St. Louis,MO,FALSE,other,Not fleeing,FALSE,-90.25,38.564,TRUE
@@ -4009,7 +4009,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 4417,Jeffrey Lynn Jones,1/25/2019,shot,gun,Gun,60,M,White,0.601,Dyersburg,TN,FALSE,attack,Not fleeing,FALSE,-89.432,36.112,TRUE
 4418,Russ Allen McClellan,1/25/2019,shot,gun,Gun,48,M,,0.006,Garland,TX,TRUE,attack,Not fleeing,FALSE,-96.643,32.861,TRUE
 4419,Robert C. Martin,1/25/2019,shot,gun,Gun,69,M,,0.006,North Escambia,FL,TRUE,attack,Not fleeing,FALSE,-87.483,30.962,TRUE
-4429,Jacob Archambault,1/27/2019,shot,vehicle,Other Weapon,25,M,Native America,0.006,Rosebud,SD,FALSE,attack,Car,FALSE,-100.853,43.233,TRUE
+4429,Jacob Archambault,1/27/2019,shot,vehicle,Other Weapon,25,M,Native American,0.006,Rosebud,SD,FALSE,attack,Car,FALSE,-100.853,43.233,TRUE
 4416,Joey Duane Ramirez,1/28/2019,shot,gun,Gun,29,M,Hispanic,0.185,Jackson,MI,FALSE,attack,Foot,FALSE,-84.402,42.244,TRUE
 4420,Rhogena Nicholas,1/28/2019,shot,unarmed,Unarmed,58,F,White,0.601,Houston,TX,FALSE,attack,Not fleeing,FALSE,-95.282,29.709,TRUE
 4421,Dennis Tuttle,1/28/2019,shot,gun,Gun,59,M,White,0.601,Houston,TX,FALSE,attack,Not fleeing,FALSE,-95.282,29.709,TRUE
@@ -4127,7 +4127,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 4559,Tommy Wayne Welch,3/9/2019,shot,knife,Other Weapon,59,M,White,0.601,Quanah,TX,FALSE,undetermined,Not fleeing,FALSE,,,TRUE
 4676,Jose German,3/9/2019,shot,gun,Gun,40,M,,0.006,Buckeye,AZ,FALSE,attack,Car,FALSE,-112.477,33.474,TRUE
 4677,Rodney Lassiter,3/9/2019,shot,gun,Gun,30,M,Black,0.134,Monahans,TX,TRUE,attack,Not fleeing,FALSE,-102.893,31.6,TRUE
-4552,Brandon Robertson,3/10/2019,shot,gun,Gun,34,M,Native America,0.006,Redding,CA,FALSE,attack,Foot,FALSE,-122.351,40.565,TRUE
+4552,Brandon Robertson,3/10/2019,shot,gun,Gun,34,M,Native American,0.006,Redding,CA,FALSE,attack,Foot,FALSE,-122.351,40.565,TRUE
 4553,Phillip Wayne Outland,3/10/2019,shot,gun,Gun,44,M,White,0.601,Cofield,NC,FALSE,attack,Not fleeing,FALSE,-76.838,36.323,TRUE
 4555,Sokhom Hon,3/10/2019,shot,unknown weapon,Other Weapon,31,M,Asian,0.061,San Bernardino,CA,TRUE,attack,Not fleeing,FALSE,-117.282,34.106,TRUE
 4674,Anthony Lee Montoya,3/10/2019,shot,gun,Gun,51,M,Hispanic,0.185,Lakewood,CO,FALSE,attack,Car,FALSE,-105.067,39.686,TRUE
@@ -4139,7 +4139,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 4564,Benjamin Melendez,3/13/2019,shot,knife,Other Weapon,29,M,Hispanic,0.185,Grand Island,NE,FALSE,attack,Not fleeing,FALSE,-98.34,41.016,TRUE
 4566,Nina Adams,3/13/2019,shot,gun,Gun,47,F,Black,0.134,Greensburg,PA,TRUE,attack,Not fleeing,FALSE,-79.536,40.325,TRUE
 4570,Henry Wayne Rivera,3/13/2019,shot,unarmed,Unarmed,30,M,Hispanic,0.185,Phoenix,AZ,FALSE,other,Other,FALSE,-112.102,33.45,TRUE
-4565,Shawn Taylor Waite,3/14/2019,shot,knife,Other Weapon,27,M,Native America,0.006,Sallisaw,OK,FALSE,attack,Not fleeing,FALSE,-94.78,35.483,TRUE
+4565,Shawn Taylor Waite,3/14/2019,shot,knife,Other Weapon,27,M,Native American,0.006,Sallisaw,OK,FALSE,attack,Not fleeing,FALSE,-94.78,35.483,TRUE
 4568,,3/14/2019,shot,gun,Gun,27,M,,0.006,Federal Way,WA,FALSE,attack,Not fleeing,FALSE,-122.31,47.303,TRUE
 4569,Jerry Marrero,3/14/2019,shot,knife,Other Weapon,38,M,Hispanic,0.185,Jacksonville,FL,TRUE,other,Not fleeing,FALSE,-81.631,30.29,TRUE
 4571,George Wayne McCallum,3/14/2019,shot,gun,Gun,33,M,White,0.601,Monroe County,MS,TRUE,other,Car,FALSE,-88.415,33.781,TRUE
@@ -4183,7 +4183,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 4608,Stacy William Kenny,3/31/2019,shot,vehicle,Other Weapon,33,F,White,0.601,Springfield,OR,TRUE,other,Car,FALSE,-122.972,44.059,TRUE
 4611,Juan Padilla,3/31/2019,shot,knife,Other Weapon,24,M,Hispanic,0.185,Marana,AZ,FALSE,attack,Not fleeing,FALSE,-111.123,32.359,TRUE
 4612,Oscar Cain,3/31/2019,shot,gun,Gun,31,M,Black,0.134,Atlanta,GA,FALSE,other,Foot,FALSE,-84.407,33.684,TRUE
-4618,Kevin Ray McEnulty,3/31/2019,shot,gun,Gun,25,M,Native America,0.006,Fairbanks,AK,FALSE,other,Car,FALSE,-147.838,64.849,TRUE
+4618,Kevin Ray McEnulty,3/31/2019,shot,gun,Gun,25,M,Native American,0.006,Fairbanks,AK,FALSE,other,Car,FALSE,-147.838,64.849,TRUE
 4609,Lianna Renee London,4/1/2019,shot,gun,Gun,28,F,White,0.601,LaFollette,TN,FALSE,attack,Not fleeing,FALSE,-84.117,36.388,TRUE
 4620,Veltavious Griggs,4/1/2019,shot,gun,Gun,19,M,Black,0.134,Union City,GA,FALSE,attack,,FALSE,-84.565,33.598,TRUE
 4656,Bishar Hassan,4/1/2019,shot,BB gun,Other Weapon,31,M,Black,0.134,Anchorage,AK,TRUE,other,Foot,FALSE,-149.883,61.206,TRUE
@@ -4218,17 +4218,17 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 4663,Luc Ciel,4/12/2019,shot,knife,Other Weapon,54,M,Asian,0.061,Richmond,CA,FALSE,attack,Not fleeing,FALSE,-122.331,37.945,TRUE
 4633,Augustus Combs,4/14/2019,shot,gun,Gun,27,M,White,0.601,Dalhart,TX,FALSE,other,Foot,FALSE,-102.53,36.071,TRUE
 4634,Kawaski Trawick,4/14/2019,shot,knife,Other Weapon,32,M,Black,0.134,New York,NY,FALSE,other,Not fleeing,TRUE,-73.944,40.712,TRUE
-4636,Clarence Leading Fighter,4/14/2019,shot,knife,Other Weapon,32,M,Native America,0.006,Rushville,NE,FALSE,other,Foot,FALSE,-102.455,42.719,TRUE
+4636,Clarence Leading Fighter,4/14/2019,shot,knife,Other Weapon,32,M,Native American,0.006,Rushville,NE,FALSE,other,Foot,FALSE,-102.455,42.719,TRUE
 4639,William Crawford,4/14/2019,shot,gun,Gun,47,M,White,0.601,Los Angeles,CA,FALSE,undetermined,Foot,FALSE,-118.259,34.049,TRUE
 4655,Brian Dellaann Butts,4/14/2019,shot,gun,Gun,33,M,White,0.601,Portland,OR,FALSE,attack,Not fleeing,FALSE,-122.777,45.547,TRUE
-4635,Henry Lane,4/14/2019,shot and Tasered,walking stick,Other Weapon,42,M,Native America,0.006,Red Bluff,CA,TRUE,other,Foot,FALSE,-122.233,40.176,TRUE
+4635,Henry Lane,4/14/2019,shot and Tasered,walking stick,Other Weapon,42,M,Native American,0.006,Red Bluff,CA,TRUE,other,Foot,FALSE,-122.233,40.176,TRUE
 4632,Samuel Charles Talbott,4/15/2019,shot,knife,Other Weapon,,M,White,0.601,Pigeon Forge,TN,TRUE,other,Not fleeing,FALSE,-83.574,35.794,TRUE
 4638,Tyler R. Johnson,4/16/2019,shot,knife,Other Weapon,24,M,,0.006,Lee,NY,TRUE,other,Not fleeing,FALSE,-75.536,43.28,TRUE
 4641,Chadwick Dale Martin,4/16/2019,shot,vehicle,Other Weapon,24,M,White,0.601,Fountain Inn,SC,FALSE,attack,Car,FALSE,-82.196,34.689,TRUE
 5412,Patrick West,4/16/2019,shot,sword,Other Weapon,42,M,White,0.601,Montesano,WA,TRUE,other,Not fleeing,FALSE,-123.594,46.981,TRUE
 4642,Akeen Brown,4/17/2019,shot,gun,Gun,34,M,Black,0.134,Flint,MI,FALSE,attack,Not fleeing,FALSE,-83.4,42.324,TRUE
 4648,"John Stewart, Jr.",4/17/2019,shot,knife,Other Weapon,46,M,White,0.601,Pentress,WV,TRUE,attack,Foot,TRUE,-80.17,39.708,TRUE
-4637,John Duane Fairbanks,4/18/2019,shot,gun,Gun,40,M,Native America,0.006,Coon Rapids,MN,FALSE,attack,Foot,TRUE,-93.276,45.174,TRUE
+4637,John Duane Fairbanks,4/18/2019,shot,gun,Gun,40,M,Native American,0.006,Coon Rapids,MN,FALSE,attack,Foot,TRUE,-93.276,45.174,TRUE
 4646,Michael Allen Felch,4/18/2019,shot,gun,Gun,30,M,White,0.601,Fremont,CA,FALSE,attack,Not fleeing,TRUE,-121.976,37.554,TRUE
 4647,Luiz Leizado,4/18/2019,shot,gun,Gun,42,M,Hispanic,0.185,New York,NY,FALSE,attack,Foot,FALSE,-73.932,40.854,TRUE
 4650,Soheil Antonio Mojarrad,4/20/2019,shot,knife,Other Weapon,30,M,White,0.601,Raleigh,NC,FALSE,attack,Not fleeing,FALSE,-78.55,35.791,TRUE
@@ -4294,7 +4294,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 4730,Luis Lomante,5/17/2019,shot,knife,Other Weapon,39,M,Hispanic,0.185,Davie,FL,FALSE,other,Not fleeing,FALSE,-80.244,26.065,TRUE
 4732,"Donald Davis, Jr.",5/17/2019,shot,gun,Gun,40,M,Black,0.134,New Orleans,LA,FALSE,attack,,TRUE,-89.999,30.024,TRUE
 5007,Daniel Warren,5/17/2019,shot,gun,Gun,36,M,Black,0.134,Pasadena,CA,FALSE,attack,Not fleeing,TRUE,-118.155,34.172,TRUE
-4728,Dion Grey Hat,5/18/2019,shot,undetermined,Other Weapon,27,M,Native America,0.006,Tonalea,AZ,FALSE,undetermined,,FALSE,-110.963,36.322,TRUE
+4728,Dion Grey Hat,5/18/2019,shot,undetermined,Other Weapon,27,M,Native American,0.006,Tonalea,AZ,FALSE,undetermined,,FALSE,-110.963,36.322,TRUE
 4731,Andrew Giovanni Meza,5/18/2019,shot,knife,Other Weapon,20,M,Hispanic,0.185,Garden Grove,CA,TRUE,attack,Not fleeing,FALSE,-117.922,33.794,TRUE
 4725,Robert Rabago,5/19/2019,shot,gun,Gun,17,M,Hispanic,0.185,Phoenix,AZ,FALSE,attack,Foot,FALSE,-112.048,33.461,TRUE
 4727,Esteban Martinez,5/19/2019,shot,unknown weapon,Other Weapon,59,M,Hispanic,0.185,Huron,CA,FALSE,attack,Not fleeing,FALSE,-120.103,36.2,TRUE
@@ -4329,7 +4329,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 4759,Steve Huff,5/30/2019,shot,gun,Gun,58,M,White,0.601,Havre de Grace,MD,TRUE,other,Not fleeing,FALSE,-76.133,39.579,TRUE
 4749,Kyle Needham,5/31/2019,shot,vehicle,Other Weapon,32,M,White,0.601,Gorham,ME,FALSE,attack,Car,FALSE,-70.439,43.682,TRUE
 4753,Jesse Sarey,5/31/2019,shot,unarmed,Unarmed,26,M,Asian,0.061,Auburn,WA,TRUE,other,Not fleeing,FALSE,-122.214,47.295,TRUE
-4750,Thomas Goodeyes Gay,6/1/2019,shot,unarmed,Unarmed,35,M,Native America,0.006,Bartlesville,OK,TRUE,undetermined,Not fleeing,FALSE,-95.917,36.735,TRUE
+4750,Thomas Goodeyes Gay,6/1/2019,shot,unarmed,Unarmed,35,M,Native American,0.006,Bartlesville,OK,TRUE,undetermined,Not fleeing,FALSE,-95.917,36.735,TRUE
 4751,Nikolai Landry,6/1/2019,shot,gun,Gun,27,M,White,0.601,Anderson,CA,FALSE,other,Not fleeing,FALSE,-122.298,40.438,TRUE
 4752,Marcus Boles,6/1/2019,shot,knife,Other Weapon,35,M,Black,0.134,Shreveport,LA,FALSE,attack,Not fleeing,FALSE,-93.745,32.519,TRUE
 5445,Cody Wayne Seals,6/1/2019,shot,flashlight,Other Weapon,38,M,,0.006,Fort Worth,TX,TRUE,attack,Not fleeing,FALSE,-97.341,32.665,TRUE
@@ -4424,7 +4424,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 4839,,7/2/2019,shot,gun,Gun,,M,,0.006,Albuquerque,NM,FALSE,attack,Not fleeing,FALSE,-106.55,35.074,TRUE
 4841,Isaiah Robinson,7/2/2019,shot,gun,Gun,39,M,Black,0.134,Elyria,OH,FALSE,attack,Car,FALSE,-82.097,41.346,TRUE
 4843,Mark A. Naugle,7/3/2019,shot,hammer,Other Weapon,53,M,White,0.601,Salem,IN,FALSE,other,Not fleeing,FALSE,-86.091,38.606,TRUE
-4850,Stonechild Chiefstick,7/3/2019,shot,screwdriver,Other Weapon,39,M,Native America,0.006,Poulsbo,WA,TRUE,other,Not fleeing,FALSE,-122.648,47.735,TRUE
+4850,Stonechild Chiefstick,7/3/2019,shot,screwdriver,Other Weapon,39,M,Native American,0.006,Poulsbo,WA,TRUE,other,Not fleeing,FALSE,-122.648,47.735,TRUE
 4855,Jonathan Pingel,7/3/2019,shot,knife,Other Weapon,26,M,White,0.601,West Des Moines,IA,TRUE,other,Not fleeing,FALSE,-93.765,41.587,TRUE
 4857,Christine Soto Venegas,7/3/2019,shot,toy weapon,Toy,38,F,Hispanic,0.185,El Paso,TX,FALSE,attack,Not fleeing,FALSE,-106.429,31.77,TRUE
 4979,Li Xi Wang,7/3/2019,shot,unarmed,Unarmed,49,M,Asian,0.061,Chino,CA,FALSE,other,Not fleeing,TRUE,-117.656,34.021,TRUE
@@ -4636,7 +4636,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 5058,Adam Paul English,9/20/2019,shot,gun,Gun,21,M,White,0.601,Gainesville,GA,TRUE,attack,Not fleeing,TRUE,-83.82,34.301,TRUE
 5492,Scott Johnson,9/20/2019,shot,gun,Gun,57,M,White,0.601,Lakewood,CO,FALSE,attack,Not fleeing,FALSE,-105.086,39.708,TRUE
 5049,Jeffrey Peterson,9/21/2019,shot,gun,Gun,29,M,White,0.601,Ada,OK,FALSE,attack,Not fleeing,FALSE,-96.665,34.782,TRUE
-5490,Anderson Antelope,9/21/2019,shot,knife,Other Weapon,58,M,Native America,0.006,Riverton,WY,TRUE,attack,Not fleeing,FALSE,-108.378,43.043,TRUE
+5490,Anderson Antelope,9/21/2019,shot,knife,Other Weapon,58,M,Native American,0.006,Riverton,WY,TRUE,attack,Not fleeing,FALSE,-108.378,43.043,TRUE
 5050,,9/22/2019,shot,gun,Gun,74,M,White,0.601,Austin,TX,FALSE,attack,Not fleeing,FALSE,-97.679,30.33,TRUE
 5046,Raymond Hernandez,9/23/2019,shot,gun,Gun,63,M,Hispanic,0.185,Los Angeles,CA,FALSE,other,,FALSE,-118.279,33.782,TRUE
 5047,Jeffery Tyler Aycock,9/23/2019,shot,gun,Gun,28,M,White,0.601,Floyd County,GA,FALSE,attack,Foot,FALSE,-85.102,34.202,TRUE
@@ -4833,7 +4833,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 5230,Jerric Harris,12/2/2019,shot,gun,Gun,21,M,Black,0.134,Daytona Beach,FL,FALSE,attack,Foot,TRUE,-81.06,29.214,TRUE
 5246,Dai Phuoc Nguyen,12/2/2019,shot,knife,Other Weapon,38,M,Asian,0.061,Los Angeles,CA,FALSE,other,,FALSE,-118.056,34.065,TRUE
 5249,Michael Dean,12/2/2019,shot,unarmed,Unarmed,28,M,Black,0.134,Temple,TX,FALSE,undetermined,Not fleeing,FALSE,-97.337,31.061,TRUE
-5388,Neil Chiago,12/2/2019,shot,gun,Gun,18,M,Native America,0.006,Mesa,AZ,FALSE,attack,Not fleeing,FALSE,-111.788,33.408,TRUE
+5388,Neil Chiago,12/2/2019,shot,gun,Gun,18,M,Native American,0.006,Mesa,AZ,FALSE,attack,Not fleeing,FALSE,-111.788,33.408,TRUE
 5247,Thomas Cole Thompson,12/3/2019,shot,gun,Gun,,M,White,0.601,Ada,OK,FALSE,attack,Not fleeing,FALSE,-96.69,34.773,TRUE
 5250,Cameron Lamb,12/3/2019,shot,gun,Gun,26,M,Black,0.134,Kansas City,MO,FALSE,other,Not fleeing,FALSE,-94.545,39.062,TRUE
 5257,Miguel Russo,12/3/2019,shot,gun,Gun,31,M,Black,0.134,Syracuse,NY,FALSE,attack,Not fleeing,TRUE,-76.173,43.039,TRUE
@@ -5045,9 +5045,9 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 5527,Bobby Gibbs,2/10/2020,shot,gun,Gun,40,M,Black,0.134,Forrest City,AR,FALSE,attack,Not fleeing,FALSE,-90.795,35.03,TRUE
 5529,Jeremy Todd Baham,2/10/2020,shot,gun,Gun,40,M,White,0.601,Lafayette,LA,FALSE,other,Not fleeing,FALSE,-92.027,30.179,TRUE
 5530,Thomas Ray Chamblee,2/10/2020,shot,gun,Gun,34,M,White,0.601,Albertville,AL,FALSE,attack,Other,TRUE,-86.278,34.221,TRUE
-5525,Hans Alejandro Huitz,2/12/2020,shot,gun,Gun,51,M,Native America,0.006,Virginia Beach,VA,FALSE,attack,Not fleeing,FALSE,-75.99,36.776,TRUE
+5525,Hans Alejandro Huitz,2/12/2020,shot,gun,Gun,51,M,Native American,0.006,Virginia Beach,VA,FALSE,attack,Not fleeing,FALSE,-75.99,36.776,TRUE
 5526,Michael Marullo,2/12/2020,shot,gun,Gun,33,M,White,0.601,Baltimore,MD,FALSE,attack,Not fleeing,FALSE,-76.549,39.322,TRUE
-5528,Dakota Lee Chlarson,2/13/2020,shot,scissors,Other Weapon,25,M,Native America,0.006,Dickinson,ND,FALSE,attack,Not fleeing,FALSE,-102.786,46.882,TRUE
+5528,Dakota Lee Chlarson,2/13/2020,shot,scissors,Other Weapon,25,M,Native American,0.006,Dickinson,ND,FALSE,attack,Not fleeing,FALSE,-102.786,46.882,TRUE
 5538,Jeremey Fox,2/13/2020,shot,undetermined,Other Weapon,42,M,White,0.601,Bossier City,LA,FALSE,other,Not fleeing,TRUE,,,TRUE
 5546,Brian Francis Filion,2/13/2020,shot,gun,Gun,41,M,White,0.601,Salt Lake City,UT,FALSE,other,Foot,FALSE,-111.88,40.763,TRUE
 5549,Aaron Marcos Valdez,2/13/2020,shot,gun,Gun,19,M,Hispanic,0.185,Amarillo,TX,FALSE,attack,Not fleeing,FALSE,-101.829,35.227,TRUE
@@ -5062,7 +5062,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 5545,Rudy Arenas,2/16/2020,shot,gun,Gun,40,M,Hispanic,0.185,Poinciana,FL,FALSE,attack,Car,FALSE,-81.458,28.135,TRUE
 5575,Brandon Lewis,2/16/2020,shot,gun,Gun,34,M,White,0.601,Harrison County,IN,FALSE,attack,Car,FALSE,-86.144,38.22,TRUE
 5534,Travis Mullins,2/17/2020,shot,gun,Gun,29,M,White,0.601,Greenville,TN,FALSE,attack,Not fleeing,FALSE,-82.78,36.18,TRUE
-5560,Jeremy Dewey,2/17/2020,shot,gun,Gun,27,M,Native America,0.006,Pinetop,AZ,FALSE,attack,Not fleeing,FALSE,-109.946,34.129,TRUE
+5560,Jeremy Dewey,2/17/2020,shot,gun,Gun,27,M,Native American,0.006,Pinetop,AZ,FALSE,attack,Not fleeing,FALSE,-109.946,34.129,TRUE
 5531,Kevin Adolphe,2/18/2020,shot,gun,Gun,23,M,Black,0.134,Orlando,FL,FALSE,other,Foot,FALSE,-81.459,28.496,TRUE
 5542,Alex Francisco Vazquez,2/19/2020,shot,gun,Gun,38,M,Hispanic,0.185,Red Bluff,CA,FALSE,attack,Not fleeing,FALSE,-122.236,40.154,TRUE
 5556,Joseph Jewell,2/20/2020,shot,gun,Gun,17,M,Black,0.134,Columbus,OH,FALSE,attack,Not fleeing,FALSE,-82.995,40.089,TRUE
@@ -5591,7 +5591,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 6110,Scott Huffman,8/21/2020,shot,gun,Gun,42,M,White,0.601,Nipomo,CA,TRUE,attack,Not fleeing,FALSE,-120.485,35.037,TRUE
 6105,Trayford Pellerin,8/21/2020,shot and Tasered,knife,Other Weapon,31,M,Black,0.134,Lafayette,LA,TRUE,other,Foot,FALSE,-92.001,30.204,TRUE
 6107,Christopher Walker,8/22/2020,shot,gun,Gun,29,M,Black,0.134,Rancho Cordova,CA,TRUE,attack,Foot,FALSE,-121.318,38.577,TRUE
-6111,Brandon R. Laducer,8/22/2020,shot,undetermined,Other Weapon,35,M,Native America,0.006,Belcourt,ND,FALSE,undetermined,,FALSE,-99.745,48.839,TRUE
+6111,Brandon R. Laducer,8/22/2020,shot,undetermined,Other Weapon,35,M,Native American,0.006,Belcourt,ND,FALSE,undetermined,,FALSE,-99.745,48.839,TRUE
 6108,Gearil Leonard Williams,8/23/2020,shot,knife,Other Weapon,47,M,Black,0.134,Kingsland,GA,FALSE,attack,Not fleeing,FALSE,-81.643,30.79,TRUE
 6109,David Sanchez,8/24/2020,shot,gun,Gun,,M,,0.006,Albuquerque,NM,FALSE,attack,,FALSE,-106.57,35.184,TRUE
 6124,Corey Lee Cutler,8/24/2020,shot,gun,Gun,31,M,White,0.601,Lincoln County,NC,FALSE,attack,Not fleeing,FALSE,-81.208,35.29,TRUE
@@ -5630,7 +5630,7 @@ id,name,date,manner_of_death,armed,armed_type,age,gender,race,race_pop_proportio
 6153,Steve Gilbert,9/8/2020,shot,gun,Gun,33,M,Black,0.134,Delray Beach,FL,FALSE,attack,Car,FALSE,-80.085,26.462,TRUE
 6154,Matthew Patton,9/8/2020,shot,knife,Other Weapon,37,M,,0.006,Las Vegas,NV,FALSE,attack,Other,FALSE,-115.173,36.115,TRUE
 6155,Chad Busby,9/9/2020,shot,gun,Gun,47,M,White,0.601,McCracken County,KY,FALSE,attack,Car,FALSE,-88.711,37.092,TRUE
-6161,Antonio Black Bear,9/9/2020,shot,Airsoft pistol,Other Weapon,41,M,Native America,0.006,Denver,CO,FALSE,attack,Not fleeing,FALSE,-104.998,39.732,TRUE
+6161,Antonio Black Bear,9/9/2020,shot,Airsoft pistol,Other Weapon,41,M,Native American,0.006,Denver,CO,FALSE,attack,Not fleeing,FALSE,-104.998,39.732,TRUE
 6158,Robert Samuel Craig Lusk,9/10/2020,shot,gun,Gun,18,M,,0.006,Norcross,GA,FALSE,attack,Foot,FALSE,-84.175,33.926,TRUE
 6163,Robert Ray Doss,9/10/2020,shot,gun,Gun,,M,White,0.601,Henderson County,NC,FALSE,attack,Not fleeing,FALSE,-82.506,35.377,TRUE
 6164,Jonathan Darsaw,9/10/2020,shot,gun,Gun,49,M,Black,0.134,Moscow,TN,FALSE,attack,Not fleeing,FALSE,-89.404,35.062,TRUE
