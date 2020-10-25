@@ -23,35 +23,6 @@ const barSVG = d3.select('.static-bar').append('svg')
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
 
-let returnRaces = function(data) {
-    return data.race;
-}
-
-let countNum = function(data, races){
-//    console.log(data)
-    let races_object = {}
-    let races_arr = Object.entries(data)
-    console.log(data)
-    let counts = []
-    let white = 0;
-    let asian = 0;
-    let black = 0;
-    let hispanic = 0;
-    let native_american = 0;
-    let other = 0;
-  //  for (let person in data) {
-            //console.log(person)
-  //          console.log('here')
-  //          console.log(person.race)
-         /*   if (races_arr[i][2][2] === 'White') white++;
-            if (d.race === 'Asian') asian++;
-            if (d.race === 'Black') black++;
-            if (d.race === 'Hispanic') hispanic++;
-            if (d.race === 'Native American') native_american++;
-            else other++; */
-        }
-    //console.log('number of white people killed', white);
-    };
 
 let makeBars = function makeStaticBar(data) {
     const unique_races = [... new Set(data.map(d => returnRaces(d)))]
