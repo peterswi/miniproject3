@@ -27,11 +27,32 @@ let returnRaces = function(data) {
     return data.race;
 }
 
-let race_freq = [];
+const races = ['W', 'B', 'A', 'N', 'O', 'None'];
 let countNum = function(data) {
-    //let data_arr = Object.entries(data)
-    let races = returnRaces(data)
-    let races_arr = Object.entries(races)
+    let races_object = {}
+    let counts = []
+    W_count = 0
+    B_count = 0
+    A_count = 0
+    N_count = 0
+    O_count = 0
+    None_count = 0
+    data.properties.forEach( d => {
+        if (d.races === 'W') W_count++;
+        if (d.races === 'B') B_count++;
+        if (d.races === 'A') A_count++;
+        if (d.races === 'N') N_count++;
+        if (d.races === 'O') O_count++;
+        else None_count++;
+    });
+    counts.push(W_count, B_count, A_count, N_count, O_count, None_count);
+    for (i=0; i < races.length; i++) {
+        console.log(races[i])
+        console.log(counts[i])
+        //races_object.races[i] = counts[i]
+    }
+    return races_object
+   /* let races_arr = Object.entries(races)
     console.log(races_arr)
     races.forEach((r) => {
             counter = 0;
@@ -43,14 +64,14 @@ let countNum = function(data) {
                 });
             race_freq.push('Race:', r, 'Num_Victims', counter);
         })
-  //  console.log(race_freq) 
+  //  console.log(race_freq)  */
 };
 
 let makeBars = function makeStaticBar(data) {
     let data_arr = Object.entries(data)
     console.log(data_arr)
     xScaleStatic.domain(data_arr.map(d => returnRaces(d)))
-    console.log(data_arr.map(d => returnRaces(d)))
+ //   console.log(data_arr.map(d => returnRaces(d)))
     yScaleStatic.domain(data_arr.map(d => countNum(d)))
 
     const staticbars = barSVG.append('rect')
