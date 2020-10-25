@@ -27,14 +27,31 @@ let returnRaces = function(data) {
     return data.race;
 }
 
-/*let countNum = function(data) {
-    let races = data.map(d => returnRaces(d))
+let race_freq = [];
+let countNum = function(data) {
+    //let data_arr = Object.entries(data)
+    let races = returnRaces(data)
+    let races_arr = Object.entries(races)
+    console.log(races_arr)
+    races.forEach((r) => {
+            counter = 0;
+            data.forEach((data) => {
+                    if (data.race === r) {
+                    //    console.log(data.race)
+                        counter++;
+                    }
+                });
+            race_freq.push('Race:', r, 'Num_Victims', counter);
+        })
+  //  console.log(race_freq) 
+};
 
-} */
-
-function makeStaticBar(data) {
-    xScaleStatic.domain(data.map(d => returnRaces(d)))
-    yScaleStatic.domain()
+let makeBars = function makeStaticBar(data) {
+    let data_arr = Object.entries(data)
+    console.log(data_arr)
+    xScaleStatic.domain(data_arr.map(d => returnRaces(d)))
+    console.log(data_arr.map(d => returnRaces(d)))
+    yScaleStatic.domain(data_arr.map(d => countNum(d)))
 
     const staticbars = barSVG.append('rect')
         .data(data)
@@ -45,5 +62,6 @@ function makeStaticBar(data) {
 
 let info = d3.csv('data-police-shootings-master/fatal-police-shootings-data.csv', d3.autoType).then( data => {
     console.log(data);
+    makeBars(data);
 });
 
