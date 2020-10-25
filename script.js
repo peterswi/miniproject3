@@ -34,12 +34,12 @@ const barSVG = d3.select('.static-bar').append('svg')
     .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
 
-const pieSVG = d3.select('.pie')
-    .append('svg')
-    .attr('width', width + margin.left + margin.right)
-    .attr('height', height + margin.top + margin.bottom)
-    .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+// const pieSVG = d3.select('.pie')
+//     .append('svg')
+//     .attr('width', width + margin.left + margin.right)
+//     .attr('height', height + margin.top + margin.bottom)
+//     .append("g")
+//     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 let returnRaces = function(data) {
     return data.race;
@@ -63,6 +63,7 @@ function makeStaticPie(data) {
     var armedDataArray = [];
     var unarmedCount = 0;
     var armedCount = 0;
+
     for (let step = 0; step < 5701; step++) { 
         if (data[step].armed == "gun") {
             armedCount += 1;
@@ -75,35 +76,58 @@ function makeStaticPie(data) {
 
     console.log(armedDataArray)
 
-    var pie = d3.pie()
-        .value(function(d) {return d.value; });
-    var data_ready = pie(armedDataArray)
+    const size = 500;const fourth = size / 4;const half = size / 2;const labelOffset = fourth * 1.4;const total = armedDataArray.reduce((acc, cur) => acc + cur.value, 0);
 
-   pieSVG
-        .selectAll('slices')
-        .data(data_ready)
+
+    var pieChart = d3.select('.pie').append('svg')
+        .style('width', '100%')  
+        .attr('viewBox', `0 0 ${size} ${size}`);
+
+    const plotArea = pieChart.append('g')
+        .attr('transform', `translate(${half}, ${half})`);
+
+    const pieColorScale = d3.scaleOrdinal()
+        .domain(armedDataArray.map(d => d.label))  
+        .range(d3.schemeCategory10);
+
+    const pie = d3.pie()
+        .sort(null) 
+        .value(d => d.value);
+
+    const arcs = pie(armedDataArray);
+
+    const arc = d3.arc()  
+        .innerRadius(0)  
+        .outerRadius(fourth);
+    
+    const arcLabel = d3.arc()
+        .innerRadius(labelOffset) 
+        .outerRadius(labelOffset);
+
+    plotArea.selectAll('path')
+        .data(arcs)
         .enter()
         .append('path')
-        .attr('d', d3.arc()
-            .innerRadius(0)
-            .outerRadius(radius)
-        )
-        // .attr('fill', function(d){ return(color(d.data.key)) })
-        .attr('fill', 'blue')
-        .attr("stroke", "black")
-        .style("stroke-width", "2px")
-        .style("opacity", 0.7)
+        .attr('fill', d => pieColorScale(d.data.label))
+        .attr('stroke', 'white')
+        .attr('d', arc);
 
+        const labels = plotArea.selectAll('text') 
+        .data(arcs) 
+        .enter() 
+        .append('text') 
+        .style('text-anchor', 'middle')
+        .style('alignment-baseline', 'middle')
+        .style('font-size', '20px')
+        .attr('transform', d => `translate(${arcLabel.centroid(d)})`)
+
+        labels.append('tspan') 
+        .attr('y', '-0.6em')
+        .attr('x', 0)
+        .style('font-weight', 'bold')
+        .text(d => `${d.data.label}`);
 }
 
-var arc = d3.svg.arc()
-    .outerRadius(r);
-
-var pie = d3.layout.pie()
-    .value(function(d) { return d.value; });
-
-var arcs = pieSVG.selectAll('slicies')
-    .data()
 
 
 
