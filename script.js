@@ -50,9 +50,6 @@ let returnRaces = function(data) {
 
 } */
 
-function makeStaticBar(data) {
-    xScaleStatic.domain(data.map(d => returnRaces(d)))
-    yScaleStatic.domain()
 
 let makeBars = function makeStaticBar(data) {
     const unique_races = [... new Set(data.map(d => returnRaces(d)))]
