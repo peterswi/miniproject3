@@ -54,9 +54,14 @@ function makeStaticBar(data) {
     xScaleStatic.domain(data.map(d => returnRaces(d)))
     yScaleStatic.domain()
 
-    const staticbars = barSVG.append('rect')
-        .data(data)
-        .enter()
+let makeBars = function makeStaticBar(data) {
+    const unique_races = [... new Set(data.map(d => returnRaces(d)))]
+    console.log(unique_races)
+    xScaleStatic.domain(unique_races)
+    yScaleStatic.domain(data.map(d => countNum(d,unique_races)))
+ //   const staticbars = barSVG.append('rect')
+  //      .data(data)
+   //     .enter()
 }
 
 function makeStaticPie(data) {
@@ -134,6 +139,7 @@ function makeStaticPie(data) {
 let info = d3.csv('data-police-shootings-master/fatal-police-shootings-data.csv', d3.autoType).then( data => {
     console.log(data);
     makeStaticPie(data);
-    
+    makeBars(data);
 });
 
+console.log(Object.prototype)
