@@ -29,6 +29,7 @@ let returnRaces = function(data) {
 
 const races = ['W', 'B', 'A', 'N', 'O', 'None'];
 let countNum = function(data) {
+    console.log(data)
     let races_object = {}
     let counts = []
     W_count = 0
@@ -37,7 +38,7 @@ let countNum = function(data) {
     N_count = 0
     O_count = 0
     None_count = 0
-    data.properties.forEach( d => {
+    data.forEach( d => {
         if (d.races === 'W') W_count++;
         if (d.races === 'B') B_count++;
         if (d.races === 'A') A_count++;
@@ -50,7 +51,7 @@ let countNum = function(data) {
         console.log(races[i])
         console.log(counts[i])
         //races_object.races[i] = counts[i]
-    }
+    };
     return races_object
    /* let races_arr = Object.entries(races)
     console.log(races_arr)
@@ -68,15 +69,12 @@ let countNum = function(data) {
 };
 
 let makeBars = function makeStaticBar(data) {
-    let data_arr = Object.entries(data)
-    console.log(data_arr)
-    xScaleStatic.domain(data_arr.map(d => returnRaces(d)))
- //   console.log(data_arr.map(d => returnRaces(d)))
-    yScaleStatic.domain(data_arr.map(d => countNum(d)))
-
-    const staticbars = barSVG.append('rect')
-        .data(data)
-        .enter()
+    const unique_races = [... new Set(data.map(d => returnRaces(d)))]
+    xScaleStatic.domain(unique_races)
+    yScaleStatic.domain(data.map(d => countNum(d)))
+ //   const staticbars = barSVG.append('rect')
+  //      .data(data)
+   //     .enter()
 }
 
 
