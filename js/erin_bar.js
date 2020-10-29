@@ -28,7 +28,7 @@ const colorScale = d3
     .range(d3.schemeSet2)
 
 
-const barSVG = d3.select('.static-bar').append('svg')
+const barSVG = d3.select('.erin-bar').append('svg')
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
     .append("g")
