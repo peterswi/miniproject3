@@ -107,6 +107,11 @@ let makeBars = function makeStaticBar(data) {
           .attr('fill', 'blue');
 
         let tip = d3.selectAll('rect')
+        .on("mouseleave", (event, d) => {
+            // hide tooltip
+            d3.select('#erin-tooltip')
+                .style('display', 'none');
+          })
           .on('mouseenter', (event, d) => {
              let racial_group = d;
               const pos = d3.pointer(event, window);
@@ -115,16 +120,11 @@ let makeBars = function makeStaticBar(data) {
               d3.select('#erin-tooltip')
                 .style('display', 'inline-block')
                 .style('position', 'fixed')
-                .style('left', pos[0]+5+'px')
-                .style('top', pos[1]-25+'px')
+                .style('left', pos[0]-5+'px')
+                .style('top', pos[1]+5+'px')
                 .html(d.label + '<br>' + d.value + '% of Victims') 
              })
 
-          .on("mouseleave", (event, d) => {
-            // hide tooltip
-            d3.select('.erin-tooltip')
-                .style('display', 'none');
-          })
 
         let labels = barSVG.selectAll('text')
             .data(racesDataArray)
