@@ -1,6 +1,6 @@
-function pie(container){
+export default function pie(container){
 
-    
+
     const margin = ({top: 20, right: 35, bottom: 20, left: 40});
     const width = 500 - margin.left - margin.right;
     const height = 400 - margin.top - margin.bottom;
@@ -122,5 +122,3 @@ function pie(container){
 
     console.log(Object.prototype)
 }
-
-export default pie
