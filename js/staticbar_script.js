@@ -2,7 +2,7 @@ const margin = ({top: 20, right: 35, bottom: 20, left: 40});
 const width = 750 - margin.left - margin.right;
 const height = 600 - margin.top - margin.bottom;
 
-const barSVG = d3.select('.static-bar').append('svg')
+const barSVG = d3.select('.erin-bar').append('svg')
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
     .append("g")
@@ -68,39 +68,43 @@ let makeBars = function makeStaticBar(data) {
             else other += 1;
         
         }
-            racesDataArray.push({"label": "White", "value": white})
-            racesDataArray.push({"label": "Black", "value": black})
-            racesDataArray.push({"label": "Asian", "value": asian})
-            racesDataArray.push({"label": "Hispanic", "value": hispanic})
-            racesDataArray.push({"label": "Native American", "value": native_american})
-            racesDataArray.push({"label": "Other/Not Specified", "value": other})
+            racesDataArray.push({"label": "White", "value": Math.round((white/5701) * 100, 4)})
+            racesDataArray.push({"label": "Black", "value": Math.round((black/5701)*100)})
+            racesDataArray.push({"label": "Asian", "value": Math.round((asian/5701)*100)})
+            racesDataArray.push({"label": "Hispanic", "value": Math.round((hispanic/5701)*100)})
+            racesDataArray.push({"label": "Native American", "value": Math.round((native_american/5701)*100)})
+            racesDataArray.push({"label": "Other/Not Specified", "value": Math.round((other/5701)*100)})
 
         console.log(racesDataArray)       
 
         xScaleStatic.domain(racesDataArray.map(d => returnRaces(d)))
-        yScaleStatic.domain([0, d3.max(racesDataArray.map(d => raceFreq(d)))]) // gives us the percentage each racial group makes up
+        yScaleStatic.domain([0, d3.max(racesDataArray, function(d) {
+            return d.value
+        })]) // gives us the percentage each racial group makes up
 
         console.log(d3.max(racesDataArray.map(d => raceFreq(d))))
         console.log(racesDataArray.map(d => returnRaces(d)))
-        console.log(racesDataArray.map(d => raceFreq(d)))
+      //  console.log(racesDataArray.map(d => raceFreq(d)))
+
+        console.log(racesDataArray)
 
        let staticbars = barSVG.selectAll('rect')
           .data(racesDataArray)
           .enter()
           .append('rect')
-          .attr('x', d => xScaleStatic(d.label))
-          .attr('y', d => yScaleStatic(d.value))
+          .attr('x', racesDataArray => xScaleStatic(racesDataArray.label))
+          .attr('y', racesDataArray => yScaleStatic(racesDataArray.value))
           .attr('width', xScaleStatic.bandwidth())
-          .attr('height', d => height - yScaleStatic(d.value))
+          .attr('height', racesDataArray => height - yScaleStatic(racesDataArray.value))
           .attr('fill', 'blue')
 
         let labels = barSVG.selectAll('text')
             .data(racesDataArray)
             .enter()
             .attr('text-anchor', 'middle')
-
-        labels.append('text')
             .attr('class', 'x-axis-label')
+
+        labels.select('x-axis-label')
             .attr('x', width)
             .attr('y', height)
             .text(d => `${d.data.label}`)
