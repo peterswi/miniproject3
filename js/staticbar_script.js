@@ -77,16 +77,26 @@ let makeBars = function makeStaticBar(data) {
 
         console.log(racesDataArray)       
 
-        xScaleStatic.domain(racesDataArray.map(d => returnRaces(d)))
-        yScaleStatic.domain([0, d3.max(racesDataArray, function(d) {
-            return d.value
-        })]) // gives us the percentage each racial group makes up
-
-        console.log(d3.max(racesDataArray.map(d => raceFreq(d))))
-        console.log(racesDataArray.map(d => returnRaces(d)))
+     // gives us the percentage each racial group makes up
       //  console.log(racesDataArray.map(d => raceFreq(d)))
 
         console.log(racesDataArray)
+        racesDataArray.sort(function(a, b) {
+            let raceA = a.value
+            let raceB = b.value
+            if (raceA < raceB) return 1;
+            if (raceA > raceB) return -1;
+            return 0;
+        })
+
+        xScaleStatic.domain(racesDataArray.map(d => returnRaces(d)))
+        yScaleStatic.domain([0, d3.max(racesDataArray, function(d) {
+            return d.value
+        })])
+
+        console.log(d3.max(racesDataArray.map(d => raceFreq(d))))
+        console.log(racesDataArray.map(d => returnRaces(d)))
+    
 
        let staticbars = barSVG.selectAll('rect')
           .data(racesDataArray)
