@@ -21,6 +21,7 @@ const xAxisStatic = d3.axisBottom()
 
 const yAxisStatic = d3.axisLeft()
     .scale(yScaleStatic)
+    .ticks(10)
 
 barSVG.append("g")
     .attr("class", "axis x-axis")
@@ -93,9 +94,6 @@ let makeBars = function makeStaticBar(data) {
         yScaleStatic.domain([0, d3.max(racesDataArray, function(d) {
             return d.value
         })])
-
-        console.log(d3.max(racesDataArray.map(d => raceFreq(d))))
-        console.log(racesDataArray.map(d => returnRaces(d)))
     
 
        let staticbars = barSVG.selectAll('rect')
@@ -106,7 +104,42 @@ let makeBars = function makeStaticBar(data) {
           .attr('y', racesDataArray => yScaleStatic(racesDataArray.value))
           .attr('width', xScaleStatic.bandwidth())
           .attr('height', racesDataArray => height - yScaleStatic(racesDataArray.value))
-          .attr('fill', 'blue')
+          .attr('fill', 'blue');
+
+        let tip = d3.selectAll('rect')
+          .on('mouseenter', (event, d) => {
+            /*  let racial_group = d;
+              const pos = d3.pointer(event, window);
+              console.log(pos)
+              console.log(racial_group)
+              d3.select('.erin-tooltip')
+                .style('display', 'inline-block')
+                .style('position', 'fixed')
+                .style('left', pos[0]+'px')
+                .style('top', pos[1]-25+'px')
+                .html(d.label + '<br>' + d.value + '% of Victims') */
+                let racial_group = d;
+                let xPosition =
+                margin.left +
+                width / 2 +
+                parseFloat(d3.select(this).attr("x")) +
+                xScaleStatic.bandwidth() / 2;
+              let yPosition =
+                margin.top + parseFloat(d3.select(this).attr("y")) / 2 + height;
+        
+              //Update the tooltip position and value
+              d3.select("#erin-tooltip")
+                .style("left", xPosition + "px")
+                .style("top", yPosition + "px")
+              //  .select("#erin-tooltip")
+                .html(d.label + '<br>' + d.value + '% of Victims')
+          })
+
+          .on("mouseleave", (event, d) => {
+            // hide tooltip
+            d3.select('.erin-tooltip')
+                .style('display', 'none');
+          })
 
         let labels = barSVG.selectAll('text')
             .data(racesDataArray)
@@ -117,8 +150,11 @@ let makeBars = function makeStaticBar(data) {
         labels.select('x-axis-label')
             .attr('x', width)
             .attr('y', height)
-            .text(d => `${d.data.label}`)
-};
+            .text(racesDataArray => `${racesDataArray.label}`)
+
+        // ADD TOOLTIP
+
+          };
 
 let info = d3.csv('data-police-shootings-master/fatal-police-shootings-data.csv', d3.autoType).then( data => {
     console.log(data);
