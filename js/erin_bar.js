@@ -28,12 +28,6 @@ const colorScale = d3
     .range(d3.schemeSet2)
 
 
-const barSVG = d3.select('.erin-bar').append('svg')
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-    .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
-
 // const pieSVG = d3.select('.pie')
 //     .append('svg')
 //     .attr('width', width + margin.left + margin.right)
@@ -43,22 +37,6 @@ const barSVG = d3.select('.erin-bar').append('svg')
 
 let returnRaces = function(data) {
     return data.race;
-}
-
-/*let countNum = function(data) {
-    let races = data.map(d => returnRaces(d))
-
-} */
-
-
-let makeBars = function makeStaticBar(data) {
-    const unique_races = [... new Set(data.map(d => returnRaces(d)))]
-    console.log(unique_races)
-    xScaleStatic.domain(unique_races)
-    yScaleStatic.domain(data.map(d => countNum(d,unique_races)))
- //   const staticbars = barSVG.append('rect')
-  //      .data(data)
-   //     .enter()
 }
 
 function makeStaticPie(data) {
