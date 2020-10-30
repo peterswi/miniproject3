@@ -125,19 +125,43 @@ let makeBars = function makeStaticBar(data) {
                 .html(d.label + '<br>' + d.value + '% of Victims') 
              })
 
+            let xAxisGroup = barSVG.append("g").attr("class", "x-axis axis");
 
-        let labels = barSVG.selectAll('text')
-            .data(racesDataArray)
-            .enter()
-            .attr('text-anchor', 'middle')
-            .attr('class', 'x-axis-label')
-
-        labels.select('x-axis-label')
-            .attr('x', width)
-            .attr('y', height)
-            .text(racesDataArray => `${racesDataArray.label}`)
-
-        // ADD TOOLTIP
+            let yAxisGroup = barSVG.append("g").attr("class", "y-axis axis");
+            
+            xAxisGroup = barSVG
+              .select(".x-axis")
+              .attr("transform", "translate(0," + height + ")")
+              .call(xAxisStatic);
+    
+            yAxisGroup = barSVG.select(".y-axis").call(yAxisStatic);
+      
+            barSVG.select("text.axis-title").remove();
+            barSVG
+              .append("text")
+              .attr("class", "axis-title")
+              .attr("x", 160)
+              .attr("y", -10)
+              .attr("dy", ".1em")
+              .style("text-anchor", "end")
+              .text("Percentage of Total Victims");
+    
+            let labels = barSVG.selectAll('text')
+                .data(racesDataArray)
+                .enter()
+                .attr('text-anchor', 'middle')
+                .attr('class', 'x-axis-label')
+                .text("hello")
+    
+            labels.select('x-axis-label')
+                .attr('x', width)
+                .attr('y', height)
+                .text(racesDataArray => `${racesDataArray.label}`)
+      
+            svg.append("text")
+                .attr('x', width)
+                .attr('y', height)
+                .text(racesDataArray => `${racesDataArray.label}`)
 
           };
 
