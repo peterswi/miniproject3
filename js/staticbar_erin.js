@@ -1,7 +1,7 @@
 
 function StaticBar(container){
 
-    const listeners = { mouseenter: null }
+    const listeners = { mouseenter: null, click: null}
 
     const margin = ({top: 20, right: 35, bottom: 20, left: 40});
     const width = 500 - margin.left - margin.right;
@@ -44,6 +44,16 @@ function StaticBar(container){
     function mouseenter(event, data){
         listeners["mouseenter"]=data.label
 
+    }
+    function onclick(event,data){
+        
+        if (listeners['click'] != data.label){
+            listeners['click']=data.label
+        }
+        else{
+            listeners['click']=null
+        }
+        
     }
     function mouseleave(event){
         listeners["mouseenter"]=null
@@ -109,11 +119,13 @@ function StaticBar(container){
         .data(racesDataArray)
         .enter()
         .append('rect')
+        .on("click", (event,d)=>onclick(event,d))
         .attr('x', racesDataArray => xScaleStatic(racesDataArray.label))
         .attr('y', racesDataArray => yScaleStatic(racesDataArray.value))
         .attr('width', xScaleStatic.bandwidth())
         .attr('height', racesDataArray => height - yScaleStatic(racesDataArray.value))
         .attr('fill', racesDataArray => raceScale(racesDataArray.label));
+        
 
         let tip = d3.selectAll('rect')
         .on("mouseleave", (event, d) => {
@@ -177,6 +189,7 @@ function StaticBar(container){
 
            
         };
+
     function on(event, listener) {
         listeners[event] = listener;
     }

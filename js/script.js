@@ -16,7 +16,7 @@ d3.csv('data-police-shootings-master/fatal-police-shootings-data.csv', d3.autoTy
     const pie1=StaticPie('.pie')
     pie1.update(uploadData)
 
-    bar.on("mouseenter", (race)=>{
+    bar.on("click", (race)=>{
         console.log(race)
     })
     //const pie2=WillPie('.will-pie')
