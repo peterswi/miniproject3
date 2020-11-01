@@ -1,6 +1,4 @@
-//IMPORT statements here
 
-//import pie from './pie'
 
 import StaticBar from './staticbar_erin.js'
 import StaticPie from './pie.js'

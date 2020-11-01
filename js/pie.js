@@ -61,7 +61,11 @@ function StaticPie(container){
 
         console.log(armedDataArray)
 
-        const size = 500;const fourth = size / 4;const half = size / 2;const labelOffset = fourth * 1.4;const total = armedDataArray.reduce((acc, cur) => acc + cur.value, 0);
+        const size = 500;
+        const fourth = size / 4;
+        const half = size / 2;
+        const labelOffset = fourth * 1.4;
+        const total = armedDataArray.reduce((acc, cur) => acc + cur.value, 0);
 
 
         var pieChart = d3.select(container).append('svg')
