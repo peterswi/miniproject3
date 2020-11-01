@@ -46,19 +46,30 @@ function StaticPie(container){
             return data.race;
         }
         var armedDataArray = [];
+        var gunCount = 0;
         var unarmedCount = 0;
-        var armedCount = 0;
+        var toyCount=0;
+        var knifeCount=0;
+        var otherCount=0;
 
         for (let step = 0; step < 5701; step++) { 
             if (data[step].armed == "gun") {
-                armedCount += 1;
-            } else {
-                unarmedCount += 1;
+                gunCount += 1;
+            } else if(data[step].armed=="knife") {
+                knifeCount += 1;
+            } else if (data[step].armed_type=="Toy"){
+                toyCount+= 1;
+            } else if (data[step].armed=="unarmed"){
+                unarmedCount+=1;
+            }else{
+                otherCount+=1;
             }
         };
-        armedDataArray.push({"label": "gun", "value": armedCount})
-        armedDataArray.push({"label": "no gun", "value": unarmedCount})
-
+        armedDataArray.push({"label": "gun", "value": gunCount})
+        armedDataArray.push({"label": "unarmed", "value": unarmedCount})
+        armedDataArray.push({"label": "toy weapon", "value": toyCount})
+        armedDataArray.push({"label": "knife", "value": knifeCount})
+        armedDataArray.push({"label": "other weapon", "value": otherCount})
         console.log(armedDataArray)
 
         const size = 500;

@@ -15,8 +15,8 @@ d3.csv('data-police-shootings-master/fatal-police-shootings-data.csv', d3.autoTy
     const pie1=StaticPie('.pie')
     pie1.update(uploadData)
 
-    const pie2=WillPie('.will-pie')
-    pie2.update(uploadData)
+    //const pie2=WillPie('.will-pie')
+    //pie2.update(uploadData)
 
     
 });

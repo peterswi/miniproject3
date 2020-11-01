@@ -81,9 +81,7 @@ function StaticBar(container){
             racesDataArray.push({"label": "Native American", "value": Math.round((native_american/5701)*100)})
             racesDataArray.push({"label": "Other/Not Specified", "value": Math.round((other/5701)*100)})
 
-        console.log(racesDataArray)       
-
-        console.log(racesDataArray)
+     
         racesDataArray.sort(function(a, b) {
             let raceA = a.value
             let raceB = b.value
@@ -118,8 +116,7 @@ function StaticBar(container){
         .on('mouseenter', (event, d) => {
             let racial_group = d;
             const pos = d3.pointer(event, window);
-            console.log(pos)
-            console.log(racial_group)
+            
             d3.select('#erin-tooltip')
                 .style('display', 'inline-block')
                 .style('position', 'fixed')
