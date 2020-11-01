@@ -1,6 +1,13 @@
 //IMPORT statements here
-import pie from './pie'
-import staticBar from './staticbar_erin'
+//import pie from './pie'
+import staticBar from './staticbar_erin.js'
 
-const staticPie=pie('.pie')
-const bar=staticBar('.erin-bar')
+d3.csv('data-police-shootings-master/fatal-police-shootings-data.csv', d3.autoType).then( data => {
+    
+    console.log(data);
+    const uploadData=data
+   // const staticPie=pie('.pie')
+    const staticBar=staticBar('.erin-bar')
+    staticBar.makeStaticBar(uploadData);
+});
+
