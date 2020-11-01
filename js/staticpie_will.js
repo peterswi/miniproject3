@@ -35,7 +35,8 @@ function WillPie(container){
         var pie = d3.pie()
             .value(function(armedDataArray) {return armedDataArray.value; })
             .sort(function(a, b) { console.log(a) ; return d3.ascending(a.key, b.key);} ) // This make sure that group order remains the same in the pie chart
-        var data_ready = pie(d3.entries(armedDataArray))
+        var data_ready = pie(armedDataArray)
+        armScale.domain(armedDataArray, d=>d.label)
 
         var u = svg.selectAll("path")
             .data(data_ready)
@@ -50,7 +51,7 @@ function WillPie(container){
             .innerRadius(0)
             .outerRadius(radius)
             )
-            .attr('fill', function(d){ return(color(d.data.key)) })
+            .attr('fill', function(armedDataArray){ return(armScale(armedDataArray.label)) })
             .attr("stroke", "white")
             .style("stroke-width", "2px")
             .style("opacity", 1)
