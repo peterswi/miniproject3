@@ -1,4 +1,5 @@
-function pie(container){
+
+function StaticPie(container){
 
     
     const margin = ({top: 20, right: 35, bottom: 20, left: 40});
@@ -38,11 +39,12 @@ function pie(container){
     //     .append("g")
     //     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    let returnRaces = function(data) {
-        return data.race;
-    }
+    
 
-    function makeStaticPie(data) {
+    function update(data) {
+        let returnRaces = function(data) {
+            return data.race;
+        }
         var armedDataArray = [];
         var unarmedCount = 0;
         var armedCount = 0;
@@ -62,7 +64,7 @@ function pie(container){
         const size = 500;const fourth = size / 4;const half = size / 2;const labelOffset = fourth * 1.4;const total = armedDataArray.reduce((acc, cur) => acc + cur.value, 0);
 
 
-        var pieChart = d3.select('.pie').append('svg')
+        var pieChart = d3.select(container).append('svg')
             .style('width', '100%')  
             .attr('viewBox', `0 0 ${size} ${size}`);
 
@@ -111,16 +113,9 @@ function pie(container){
             .text(d => `${d.data.label}`);
     }
 
-
-
-
-    let info = d3.csv('data-police-shootings-master/fatal-police-shootings-data.csv', d3.autoType).then( data => {
-        console.log(data);
-        makeStaticPie(data);
-        makeBars(data);
-    });
-
-    console.log(Object.prototype)
+    return{
+        update
+    }
 }
 
-export default pie
+export default StaticPie
