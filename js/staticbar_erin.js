@@ -193,9 +193,11 @@ function StaticBar(container){
     function on(event, listener) {
         listeners[event] = listener;
     }
+
     return{
         update,
-        on
+        on,
+        listeners
     };
 } 
 export default StaticBar

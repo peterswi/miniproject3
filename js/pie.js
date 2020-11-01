@@ -1,7 +1,8 @@
 
 function StaticPie(container){
     
-    
+    let filterRace = 'White';
+
     const margin = ({top: 20, right: 35, bottom: 20, left: 40});
     const width = 500 - margin.left - margin.right;
     const height = 400 - margin.top - margin.bottom;
@@ -38,13 +39,18 @@ function StaticPie(container){
     //     .attr('height', height + margin.top + margin.bottom)
     //     .append("g")
     //     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
+    function raceFilter(race){
+        if(filterRace!=null){
+            return race==filterRace}
+        else{
+            return
+        }
+    }
     
 
     function update(data) {
-        let returnRaces = function(data) {
-            return data.race;
-        }
+        
+        
         var armedDataArray = [];
         var gunCount = 0;
         var unarmedCount = 0;
@@ -52,7 +58,9 @@ function StaticPie(container){
         var knifeCount=0;
         var otherCount=0;
 
-        for (let step = 0; step < 5701; step++) { 
+        const filtereddata=data.filter(data=>data.race==filterRace)
+        console.log(filtereddata)
+        for (let step = 0; step < data.length; step++) { 
             if (data[step].armed == "gun") {
                 gunCount += 1;
             } else if(data[step].armed=="knife") {
@@ -70,7 +78,7 @@ function StaticPie(container){
         armedDataArray.push({"label": "toy weapon", "value": toyCount})
         armedDataArray.push({"label": "knife", "value": knifeCount})
         armedDataArray.push({"label": "other weapon", "value": otherCount})
-        console.log(armedDataArray)
+        
 
         const size = 500;
         const fourth = size / 4;
@@ -127,9 +135,14 @@ function StaticPie(container){
             .style('font-weight', 'bold')
             .text(d => `${d.data.label}`);
     }
+    function filterByRace(race){
+        filterRace=race
+        update(data)
+    }
 
     return{
-        update
+        update,
+        filterByRace
     }
 }
 

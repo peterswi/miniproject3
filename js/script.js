@@ -2,11 +2,11 @@
 
 import StaticBar from './staticbar_erin.js'
 import StaticPie from './pie.js'
-import WillPie from './staticpie_will.js'
+//import WillPie from './staticpie_will.js'
 
 d3.csv('data-police-shootings-master/fatal-police-shootings-data.csv', d3.autoType).then( data => {
 
-    console.log(data);
+   
     const uploadData=data
 
     const bar=StaticBar('.erin-bar')
@@ -15,9 +15,11 @@ d3.csv('data-police-shootings-master/fatal-police-shootings-data.csv', d3.autoTy
     
     const pie1=StaticPie('.pie')
     pie1.update(uploadData)
-
+    
     bar.on("click", (race)=>{
         console.log(race)
+        console.log(bar.listeners)
+        pie1.filterByRace(race)
     })
     //const pie2=WillPie('.will-pie')
     //pie2.update(uploadData)
