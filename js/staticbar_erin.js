@@ -1,5 +1,3 @@
-//Modularizing this function
-
 
 function StaticBar(container){
 
@@ -22,6 +20,9 @@ function StaticBar(container){
 
     const yScaleStatic = d3.scaleLinear()
         .range([height, 0])
+    
+    const raceScale = d3.scaleOrdinal()
+        .range(d3.schemeAccent);
 
     const xAxisStatic = d3.axisBottom()
         .scale(xScaleStatic)
@@ -46,6 +47,7 @@ function StaticBar(container){
             return data.label
         }
 
+        
         var racesDataArray = [];
         let white = 0;
         let asian = 0;
@@ -90,6 +92,7 @@ function StaticBar(container){
             return 0;
         })
 
+        raceScale.domain(racesDataArray.map(d => returnRaces(d)))
         xScaleStatic.domain(racesDataArray.map(d => returnRaces(d)))
         yScaleStatic.domain([0, d3.max(racesDataArray, function(d) {
             return d.value
@@ -104,7 +107,7 @@ function StaticBar(container){
         .attr('y', racesDataArray => yScaleStatic(racesDataArray.value))
         .attr('width', xScaleStatic.bandwidth())
         .attr('height', racesDataArray => height - yScaleStatic(racesDataArray.value))
-        .attr('fill', 'blue');
+        .attr('fill', racesDataArray => raceScale(racesDataArray.label));
 
         let tip = d3.selectAll('rect')
         .on("mouseleave", (event, d) => {
