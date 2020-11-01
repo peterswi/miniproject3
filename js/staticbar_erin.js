@@ -3,8 +3,8 @@ function StaticBar(container){
 
 
     const margin = ({top: 20, right: 35, bottom: 20, left: 40});
-    const width = 750 - margin.left - margin.right;
-    const height = 600 - margin.top - margin.bottom;
+    const width = 500 - margin.left - margin.right;
+    const height = 500 - margin.top - margin.bottom;
 
     const barSVG = d3.select(container)
         .append('svg')
