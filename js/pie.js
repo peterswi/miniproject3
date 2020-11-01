@@ -1,6 +1,6 @@
 
 function StaticPie(container){
-
+    
     
     const margin = ({top: 20, right: 35, bottom: 20, left: 40});
     const width = 500 - margin.left - margin.right;

@@ -161,10 +161,7 @@ function StaticBar(container){
                 .attr('y', height)
                 .text(racesDataArray => `${racesDataArray.label}`)
     
-            svg.append("text")
-                .attr('x', width)
-                .attr('y', height)
-                .text(racesDataArray => `${racesDataArray.label}`)
+        
 
            
         };

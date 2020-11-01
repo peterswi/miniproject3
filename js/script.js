@@ -2,16 +2,23 @@
 
 import StaticBar from './staticbar_erin.js'
 import StaticPie from './pie.js'
+import WillPie from './staticpie_will.js'
 
 d3.csv('data-police-shootings-master/fatal-police-shootings-data.csv', d3.autoType).then( data => {
 
     console.log(data);
     const uploadData=data
-   // const staticPie=pie('.pie')
+
     const bar=StaticBar('.erin-bar')
     bar.update(uploadData);
-    const pie=StaticPie('.pie')
-    pie.update(uploadData)
+
+    const pie1=StaticPie('.pie')
+    pie1.update(uploadData)
+
+    const pie2=WillPie('.will-pie')
+    pie2.update(uploadData)
+
+    
 });
 
 
