@@ -1,6 +1,7 @@
 
 function StaticBar(container){
 
+    const listeners = { hovered: null }
 
     const margin = ({top: 20, right: 35, bottom: 20, left: 40});
     const width = 500 - margin.left - margin.right;
@@ -12,7 +13,7 @@ function StaticBar(container){
         .attr("height", height + margin.top + margin.bottom)
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
-
+    console.log(listeners)
     // MAKING STATIC BAR
     const xScaleStatic = d3.scaleBand()
         .rangeRound([0, width])
@@ -112,9 +113,17 @@ function StaticBar(container){
             // hide tooltip
             d3.select('#erin-tooltip')
                 .style('display', 'none');
+            
+           //set listener to null
+            listeners["hovered"]=null
+            
         })
         .on('mouseenter', (event, d) => {
             let racial_group = d;
+            
+            //setting listener to the hovered group
+            listeners["hovered"]=d.label
+            
             const pos = d3.pointer(event, window);
             
             d3.select('#erin-tooltip')
