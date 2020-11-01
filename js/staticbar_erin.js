@@ -1,7 +1,7 @@
 //Modularizing this function
 
 
-function staticBar(container){
+function StaticBar(container){
 
 
     const margin = ({top: 20, right: 35, bottom: 20, left: 40});
@@ -40,7 +40,7 @@ function staticBar(container){
         .call(yAxisStatic)
 
 
-    function makeStaticBar(data) {
+    function update(data) {
 
         let returnRaces = function(data) {
             return data.label
@@ -163,7 +163,11 @@ function staticBar(container){
                 .attr('y', height)
                 .text(racesDataArray => `${racesDataArray.label}`)
 
-            return{update};
-            };
+           
+        };
+        
+    return{
+        update
+    };
 } 
-export default staticBar
+export default StaticBar
