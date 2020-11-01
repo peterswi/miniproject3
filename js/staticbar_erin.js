@@ -76,12 +76,12 @@ function StaticBar(container){
         }
             racesDataArray.push({"label": "White", "value": Math.round((white/5701) * 100, 4)})
             racesDataArray.push({"label": "Black", "value": Math.round((black/5701)*100)})
-            racesDataArray.push({"label": "Asian", "value": Math.round((asian/5701)*100)})
             racesDataArray.push({"label": "Hispanic", "value": Math.round((hispanic/5701)*100)})
+            racesDataArray.push({"label": "Asian", "value": Math.round((asian/5701)*100)})
             racesDataArray.push({"label": "Native American", "value": Math.round((native_american/5701)*100)})
-            racesDataArray.push({"label": "Other/Not Specified", "value": Math.round((other/5701)*100)})
+            racesDataArray.push({"label": "Not Specified", "value": Math.round((other/5701)*100)})
 
-     
+     /*
         racesDataArray.sort(function(a, b) {
             let raceA = a.value
             let raceB = b.value
@@ -89,7 +89,7 @@ function StaticBar(container){
             if (raceA > raceB) return -1;
             return 0;
         })
-
+*/
         raceScale.domain(racesDataArray.map(d => returnRaces(d)))
         xScaleStatic.domain(racesDataArray.map(d => returnRaces(d)))
         yScaleStatic.domain([0, d3.max(racesDataArray, function(d) {
