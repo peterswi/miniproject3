@@ -38,10 +38,6 @@ function staticBar(container){
         return data.label
     }
 
-    let raceFreq = function(data) {
-        return Math.round( ( (data.value/5701)*100)*100 ) /100
-    }
-
     let makeBars = function makeStaticBar(data) {
 
             var racesDataArray = [];
@@ -78,9 +74,6 @@ function staticBar(container){
                 racesDataArray.push({"label": "Other/Not Specified", "value": Math.round((other/5701)*100)})
 
             console.log(racesDataArray)       
-
-        // gives us the percentage each racial group makes up
-        //  console.log(racesDataArray.map(d => raceFreq(d)))
 
             console.log(racesDataArray)
             racesDataArray.sort(function(a, b) {
