@@ -68,40 +68,53 @@ function StaticBar(container){
         let returnRaces = function(data) {
             return data.label
         }
-
+        console.log(data)
         
         var racesDataArray = [];
+
         let white = 0;
+        let wProp
         let asian = 0;
+        let aProp
         let black = 0;
+        let bProp
         let hispanic = 0;
+        let hProp
         let native_american = 0;
+        let nProp
         let other = 0;
         for (let step = 0; step < 5701; step++) { 
             if (data[step].race == "White") {
                 white += 1;
+                wProp=data[step].race_pop_proportion
             } 
             else if (data[step].race == 'Black') {
                 black += 1;
+                bProp=data[step].race_pop_proportion
             }
             else if (data[step].race == 'Asian') {
                 asian+=1;
+                aProp=data[step].race_pop_proportion
             }
             else if (data[step].race == 'Hispanic') {
                 hispanic +=1;
+                hProp=data[step].race_pop_proportion
+                
             }
             else if (data[step].race == 'Native American') {
                 native_american += 1;
+                nProp=data[step].race_pop_proportion
             }
             else other += 1;
+
         
         }
-            racesDataArray.push({"label": "White", "value": Math.round((white/5701) * 100, 4)})
-            racesDataArray.push({"label": "Black", "value": Math.round((black/5701)*100)})
-            racesDataArray.push({"label": "Hispanic", "value": Math.round((hispanic/5701)*100)})
-            racesDataArray.push({"label": "Asian", "value": Math.round((asian/5701)*100)})
-            racesDataArray.push({"label": "Native American", "value": Math.round((native_american/5701)*100)})
-            racesDataArray.push({"label": "Other", "value": Math.round((other/5701)*100)})
+            racesDataArray.push({"label": "White", "value": Math.round((white/5701) * 100, 4),"proportion": Math.round((wProp*100),4)})
+            racesDataArray.push({"label": "Black", "value": Math.round((black/5701)*100),"proportion": Math.round((bProp*100),4)})
+            racesDataArray.push({"label": "Hispanic", "value": Math.round((hispanic/5701)*100),"proportion": Math.round((hProp*100),4)})
+            racesDataArray.push({"label": "Asian", "value": Math.round((asian/5701)*100),"proportion": Math.round((aProp*100),4)})
+            racesDataArray.push({"label": "Native American", "value": Math.round((native_american/5701)*100),"proportion": Math.round((nProp*100),4)})
+            racesDataArray.push({"label": "Other", "value": Math.round((other/5701)*100),"proportion":'N/a '})
 
      /*
         racesDataArray.sort(function(a, b) {
@@ -154,7 +167,7 @@ function StaticBar(container){
                 .style('position', 'fixed')
                 .style('left', pos[0]-5+'px')
                 .style('top', pos[1]+5+'px')
-                .html(d.label + '<br>' + d.value + '% of Victims') 
+                .html(d.label + '<br>' + d.value + '% of Victims'+'<br>'+d.proportion +'% of US Population') 
             })
 
             let xAxisGroup = barSVG.append("g").attr("class", "x-axis axis");
