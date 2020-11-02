@@ -1,7 +1,7 @@
 
 function StaticPie(container){
     
-    let filterRace = 'White';
+    let filterRace = null;
     let data = null;
 
     const margin = ({top: 20, right: 35, bottom: 20, left: 40});
@@ -50,7 +50,7 @@ function StaticPie(container){
     
 
     function update(_data) {
-        
+        console.log(_data)
         data = _data;
         var armedDataArray = [];
         var gunCount = 0;
