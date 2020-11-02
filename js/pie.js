@@ -8,7 +8,18 @@ function StaticPie(container){
     const width = 500 - margin.left - margin.right;
     const height = 400 - margin.top - margin.bottom;
 
-    // MAKING STATIC BAR
+    const size = 500;
+    const fourth = size / 4;
+    const half = size / 2;
+    const labelOffset = fourth * 1.4;
+
+    var pieChart = d3.select(container)
+            .append('svg')
+            .style('width', '100%')  
+            .attr('viewBox', `0 0 ${size} ${size}`)
+            .append('g')
+            .attr('transform', `translate(${half}, ${half})`);
+        
 
     const xScaleStatic = d3.scaleBand()
         .rangeRound([0, width])
@@ -50,7 +61,7 @@ function StaticPie(container){
     
 
     function update(_data) {
-        console.log(_data)
+        
         data = _data;
         var armedDataArray = [];
         var gunCount = 0;
@@ -59,16 +70,23 @@ function StaticPie(container){
         var knifeCount=0;
         var otherCount=0;
 
-        const filtereddata=data.filter(data=>data.race==filterRace)
+        let filtereddata
+        if (filterRace!=null){
+            filtereddata=data.filter(data=>data.race==filterRace)
+        }
+        else{
+            filtereddata=data
+        }
+        
         console.log(filtereddata)
-        for (let step = 0; step < data.length; step++) { 
-            if (data[step].armed == "gun") {
+        for (let step = 0; step < filtereddata.length; step++) { 
+            if (filtereddata[step].armed == "gun") {
                 gunCount += 1;
-            } else if(data[step].armed=="knife") {
+            } else if(filtereddata[step].armed=="knife") {
                 knifeCount += 1;
-            } else if (data[step].armed_type=="Toy"){
+            } else if (filtereddata[step].armed_type=="Toy"){
                 toyCount+= 1;
-            } else if (data[step].armed=="unarmed"){
+            } else if (filtereddata[step].armed=="unarmed"){
                 unarmedCount+=1;
             }else{
                 otherCount+=1;
@@ -79,21 +97,11 @@ function StaticPie(container){
         armedDataArray.push({"label": "toy weapon", "value": toyCount})
         armedDataArray.push({"label": "knife", "value": knifeCount})
         armedDataArray.push({"label": "other weapon", "value": otherCount})
+        console.log(armedDataArray)
+
         
-
-        const size = 500;
-        const fourth = size / 4;
-        const half = size / 2;
-        const labelOffset = fourth * 1.4;
         const total = armedDataArray.reduce((acc, cur) => acc + cur.value, 0);
-
-
-        var pieChart = d3.select(container).append('svg')
-            .style('width', '100%')  
-            .attr('viewBox', `0 0 ${size} ${size}`);
-
-        const plotArea = pieChart.append('g')
-            .attr('transform', `translate(${half}, ${half})`);
+        console.log(total)
 
         const pieColorScale = d3.scaleOrdinal()
             .domain(armedDataArray.map(d => d.label))  
@@ -113,15 +121,26 @@ function StaticPie(container){
             .innerRadius(labelOffset) 
             .outerRadius(labelOffset);
 
-        plotArea.selectAll('path')
+        var updatePie= pieChart.selectAll('path')
             .data(arcs)
+            
+        updatePie
             .enter()
             .append('path')
+            .merge(updatePie)
+            .transition()
+            .duration(1000)
             .attr('fill', d => pieColorScale(d.data.label))
             .attr('stroke', 'white')
-            .attr('d', arc);
+            .attr('d', arc)
+            .style("stroke-width", "2px")
+            .style("opacity", 1)
 
-            const labels = plotArea.selectAll('text') 
+        updatePie
+            .exit()
+            .remove()
+
+        const labels = pieChart.selectAll('text') 
             .data(arcs) 
             .enter() 
             .append('text') 

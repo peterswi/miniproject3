@@ -1,7 +1,7 @@
 
 function StaticBar(container){
 
-    const listeners = { mouseenter: null, raceSelected: null}
+    const listeners = {raceSelected: null}
 
     const margin = ({top: 20, right: 35, bottom: 20, left: 40});
     const width = 500 - margin.left - margin.right;
@@ -41,10 +41,7 @@ function StaticBar(container){
         .attr("class", "axis y-axis")
         .call(yAxisStatic)
 
-    function mouseenter(event, data){
-        listeners["mouseenter"]=data.label
-
-    }
+    
     function raceSelected(event,data){
         console.log(data.label)
         if (listeners['raceSelected'] != data.label){
@@ -55,9 +52,7 @@ function StaticBar(container){
         }
         
     }
-    function mouseleave(event){
-        listeners["mouseenter"]=null
-    }
+    
 
     function update(data) {
 
@@ -97,7 +92,7 @@ function StaticBar(container){
             racesDataArray.push({"label": "Hispanic", "value": Math.round((hispanic/5701)*100)})
             racesDataArray.push({"label": "Asian", "value": Math.round((asian/5701)*100)})
             racesDataArray.push({"label": "Native American", "value": Math.round((native_american/5701)*100)})
-            racesDataArray.push({"label": "Not Specified", "value": Math.round((other/5701)*100)})
+            racesDataArray.push({"label": "Other", "value": Math.round((other/5701)*100)})
 
      /*
         racesDataArray.sort(function(a, b) {
@@ -135,11 +130,11 @@ function StaticBar(container){
                 .style('display', 'none');
             
            //set listener to null
-            mouseleave(event)
+           
         })
         .on('mouseenter', (event, d) => {
             let racial_group = d;
-            mouseenter(event, d)
+            
             //setting listener to the mouseenter group
           
             
