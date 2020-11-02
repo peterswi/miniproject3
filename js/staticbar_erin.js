@@ -168,7 +168,7 @@ function StaticBar(container){
                 .style('display', 'inline-block')
                 .style('position', 'fixed')
                 .style('left', pos[0]-5+'px')
-                .style('top', pos[1]+'px')
+                .style('top', pos[1]+5+'px')
                 .html(d.label + '<br>' + d.value + '% of Victims'+'<br>'+d.proportion +'% of US Population') 
             })
 
