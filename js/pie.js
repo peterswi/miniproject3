@@ -27,6 +27,13 @@ function StaticPie(container){
         .style('text-anchor','middle')
         .text("Victim's Weapon")
         .attr('font-size',24)
+    pieChart.append('text')
+        .attr('class','subtitle')
+        .attr('x',0)
+        .attr('y',-170)
+        .style('text-anchor','middle')
+        .text("Victim's Race")
+        .attr('font-size',20)
 /*
     pieChart.append('text')
         .attr('class','subtitle')
@@ -155,6 +162,8 @@ function StaticPie(container){
             .exit()
             .remove()
 
+        //we should do labels instead?
+        /*
         const labels = pieChart.selectAll('labels') 
             .data(arcs) 
             .enter() 
@@ -170,6 +179,32 @@ function StaticPie(container){
             .attr('x', 0)
             .style('font-weight', 'bold')
             .text(d => `${d.data.label}`);
+        */
+        const pieLegend = pieChart.append('g')
+            .attr('class','legend')       
+            .attr("height", 100)
+            .attr("width", 100)
+        
+        const size=20
+        
+        pieLegend.selectAll('.legendBlocks')
+            .data(arcs)
+            .enter()
+            .append('rect')
+                .attr('x',50)
+                .attr('y',function(d,i){return 130 + i*(size+5)})
+                .attr('width', size)
+                .attr('height', size)
+                .style('fill',d=>pieColorScale(d.data.label))
+        
+        pieLegend.selectAll('.legendText')
+            .data(arcs)
+            .enter()
+            .append('text')
+                .attr('x',75)
+                .attr('y',function(d,i){return 145+ i*(size+5)})
+                .text(d=>d.data.label)
+                .attr('font-size',18)
     }
     function filterByRace(race){
         filterRace=race
