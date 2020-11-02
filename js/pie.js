@@ -20,7 +20,22 @@ function StaticPie(container){
             .append('g')
             .attr('transform', `translate(${half}, ${half})`);
         
-
+    pieChart.append('text')
+        .attr('class','graphTitle')
+        .attr('x',0)
+        .attr('y',-200)
+        .style('text-anchor','middle')
+        .text("Victim's Weapon")
+        .attr('font-size',24)
+/*
+    pieChart.append('text')
+        .attr('class','subtitle')
+        .attr('x',0)
+        .attr('y',250)
+        .style('text-anchor','middle')
+        .text("Victim's Weapon")
+        .attr('font-size',2)
+*/
     const xScaleStatic = d3.scaleBand()
         .rangeRound([0, width])
         .paddingInner(0.05)
@@ -140,16 +155,17 @@ function StaticPie(container){
             .exit()
             .remove()
 
-        const labels = pieChart.selectAll('text') 
+        const labels = pieChart.selectAll('labels') 
             .data(arcs) 
             .enter() 
             .append('text') 
             .style('text-anchor', 'middle')
             .style('alignment-baseline', 'middle')
-            .style('font-size', '20px')
+            .style('font-size', '16px')
             .attr('transform', d => `translate(${arcLabel.centroid(d)})`)
-
-            labels.append('tspan') 
+        
+        
+        labels.append('tspan') 
             .attr('y', '-0.6em')
             .attr('x', 0)
             .style('font-weight', 'bold')

@@ -40,14 +40,23 @@ function StaticBar(container){
     barSVG.append("g")
         .attr("class", "axis y-axis")
         .call(yAxisStatic)
-
+    
+    barSVG.append('text')
+        .attr('class','graphTitle')
+        .attr('x',250)
+        .attr('y',10)
+        .style('text-anchor','middle')
+        .text("Victims of Shootings by Race")
+        .attr('font-size',24)
     
     function raceSelected(event,data){
         console.log(data.label)
         if (listeners['raceSelected'] != data.label){
             listeners['raceSelected'](data.label)
+            console.log(listeners.raceSelected)
         }
         else{
+            console.log('null')
             listeners['raceSelected'](null)
         }
         
@@ -163,10 +172,10 @@ function StaticBar(container){
             barSVG
             .append("text")
             .attr("class", "axis-title")
-            .attr("x", 160)
-            .attr("y", -10)
+            .attr("transform", "rotate(-90)")
+            .attr("x", -200)
+            .attr("y", -25)
             .attr("dy", ".1em")
-            .style("text-anchor", "end")
             .text("Percentage of Total Victims");
     
             let labels = barSVG.selectAll('text')
