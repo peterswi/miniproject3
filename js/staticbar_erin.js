@@ -1,7 +1,7 @@
 
 function StaticBar(container){
 
-    const listeners = { mouseenter: null, click: null}
+    const listeners = { mouseenter: null, raceSelected: null}
 
     const margin = ({top: 20, right: 35, bottom: 20, left: 40});
     const width = 500 - margin.left - margin.right;
@@ -45,13 +45,13 @@ function StaticBar(container){
         listeners["mouseenter"]=data.label
 
     }
-    function onclick(event,data){
-        
-        if (listeners['click'] != data.label){
-            listeners['click']=data.label
+    function raceSelected(event,data){
+        console.log(data.label)
+        if (listeners['raceSelected'] != data.label){
+            listeners['raceSelected'](data.label)
         }
         else{
-            listeners['click']=null
+            listeners['raceSelected'](null)
         }
         
     }
@@ -119,7 +119,8 @@ function StaticBar(container){
         .data(racesDataArray)
         .enter()
         .append('rect')
-        .on("click", (event,d)=>onclick(event,d))
+        // .on("click", (event,d)=>onclick(event,d))
+        .on("click", raceSelected)
         .attr('x', racesDataArray => xScaleStatic(racesDataArray.label))
         .attr('y', racesDataArray => yScaleStatic(racesDataArray.value))
         .attr('width', xScaleStatic.bandwidth())
@@ -196,8 +197,7 @@ function StaticBar(container){
 
     return{
         update,
-        on,
-        listeners
+        on
     };
 } 
 export default StaticBar

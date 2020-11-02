@@ -16,9 +16,8 @@ d3.csv('data-police-shootings-master/fatal-police-shootings-data.csv', d3.autoTy
     const pie1=StaticPie('.pie')
     pie1.update(uploadData)
     
-    bar.on("click", (race)=>{
+    bar.on("raceSelected", (race) => {
         console.log(race)
-        console.log(bar.listeners)
         pie1.filterByRace(race)
     })
     //const pie2=WillPie('.will-pie')
