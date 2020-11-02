@@ -97,7 +97,7 @@ function StaticPie(container){
         armedDataArray.push({"label": "toy weapon", "value": toyCount})
         armedDataArray.push({"label": "knife", "value": knifeCount})
         armedDataArray.push({"label": "other weapon", "value": otherCount})
-        console.log(armedDataArray)
+        
 
         
         const total = armedDataArray.reduce((acc, cur) => acc + cur.value, 0);
