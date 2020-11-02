@@ -2,6 +2,7 @@
 function StaticBar(container){
 
     const listeners = {raceSelected: null}
+    let currentSelection = null
 
     const margin = ({top: 20, right: 35, bottom: 20, left: 40});
     const width = 500 - margin.left - margin.right;
@@ -50,13 +51,14 @@ function StaticBar(container){
         .attr('font-size',24)
     
     function raceSelected(event,data){
-        console.log(data.label)
-        if (listeners['raceSelected'] != data.label){
+        if (currentSelection != data.label){
+            console.log(data.label)
+            currentSelection = data.label
             listeners['raceSelected'](data.label)
-            console.log(listeners.raceSelected)
         }
         else{
             console.log('null')
+            currentSelection = null;
             listeners['raceSelected'](null)
         }
         
@@ -166,7 +168,7 @@ function StaticBar(container){
                 .style('display', 'inline-block')
                 .style('position', 'fixed')
                 .style('left', pos[0]-5+'px')
-                .style('top', pos[1]+5+'px')
+                .style('top', pos[1]+'px')
                 .html(d.label + '<br>' + d.value + '% of Victims'+'<br>'+d.proportion +'% of US Population') 
             })
 
