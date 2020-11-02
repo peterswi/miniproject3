@@ -27,13 +27,7 @@ function StaticPie(container){
         .style('text-anchor','middle')
         .text("Victim's Weapon")
         .attr('font-size',24)
-    pieChart.append('text')
-        .attr('class','subtitle')
-        .attr('x',0)
-        .attr('y',-170)
-        .style('text-anchor','middle')
-        .text("Victim's Race")
-        .attr('font-size',20)
+    
 /*
     pieChart.append('text')
         .attr('class','subtitle')
@@ -205,6 +199,37 @@ function StaticPie(container){
                 .attr('y',function(d,i){return 145+ i*(size+5)})
                 .text(d=>d.data.label)
                 .attr('font-size',18)
+        
+        pieChart.select('text.subtitle').remove();
+        pieChart.append('text')
+            .attr('class','subtitle')
+            .attr('x',0)
+            .attr('y',-170)
+            .style('text-anchor','middle')
+            .text(function(){
+                if(filterRace==null){
+                    return 'All Victims'
+                }
+                else if(filterRace=='White'){
+                    return 'White Victims'
+                }
+                else if (filterRace=='Black'){
+                    return 'Black Victims'
+                }
+                else if(filterRace=='Hispanic'){
+                    return 'Hispanic Victims'
+                }
+                else if (filterRace=='Asian'){
+                    return 'Asian Victims'
+                }
+                else if (filterRace=='Native American'){
+                    return 'Native american Victims'
+                }
+                else{
+                    return 'Other Victims'
+                }
+            })
+            .attr('font-size',20)
     }
     function filterByRace(race){
         filterRace=race
